@@ -1,4 +1,4 @@
-# Predicción de congestión en el Metro de Medellín !
+# Predicción de congestión en el Metro de Medellín 
 
 **Inteligencia Artificial · Actividad 5 · Métodos supervisados**
 Corporación Universitaria Iberoamericana · Ingeniería de Software
