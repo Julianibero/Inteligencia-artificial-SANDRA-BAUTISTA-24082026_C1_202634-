@@ -1,118 +1,86 @@
-# Inteligencia-artificial-SANDRA-BAUTISTA-24082026_C1_202634-
-Trabajo Universitario 
-# Sistema Inteligente de Búsqueda de Rutas 🚇
+# Predicción de congestión en el Metro de Medellín
 
-Sistema inteligente desarrollado en Python que encuentra la ruta óptima entre dos estaciones dentro de una representación simplificada del sistema de transporte masivo de Medellín. El proyecto aplica conceptos de representación del conocimiento, sistemas basados en reglas y estrategias de búsqueda heurística, desarrollados en el curso de Inteligencia Artificial.
+**Inteligencia Artificial · Actividad 5 · Métodos supervisados**
+Corporación Universitaria Iberoamericana · Ingeniería de Software
 
-## Descripción
+Árbol de decisión que predice si una estación del Metro de Medellín (líneas A y B)
+va a tener congestión **Baja, Media o Alta** en una hora dada, a partir de datos que
+se conocen de antemano: estación, hora, día, clima y si hay un evento masivo cerca.
 
-El sistema recibe una estación de origen y una estación de destino, y utiliza el algoritmo de búsqueda **A\*** (A-star) sobre una base de conocimiento representada como un grafo de estaciones y conexiones, para encontrar el camino más corto entre ambos puntos.
-
-- **Base de conocimiento:** estaciones y conexiones representadas mediante un diccionario de adyacencia.
-- **Reglas lógicas:** determinan qué desplazamientos son posibles y cuándo la búsqueda finaliza.
-- **Estrategia de búsqueda:** algoritmo A*, combinando el costo acumulado `g(n)` con una heurística de distancia euclidiana `h(n)`.
+Es la continuación del proyecto de transporte masivo de las actividades anteriores:
+antes buscábamos la mejor ruta entre dos estaciones; ahora añadimos la capacidad de
+anticipar qué tan llena va a estar cada estación, que es justo el dato que le falta
+a un planificador de rutas para recomendar bien.
 
 ## Integrantes
 
 - Julian Vega Joya
 - Alejandro Mora
+<!-- Agregar aquí a los demás integrantes del equipo, si los hay -->
 
-## Requisitos
+## Qué hay en el repositorio
 
-- Python 3.8 o superior
-- No requiere librerías externas (solo `math` y `heapq`, incluidas en la instalación estándar de Python)
+| Entregable de la actividad | Dónde está |
+|---|---|
+| 1. Archivos de fuentes de datos | [`data/afluencia_metro_medellin.csv`](data/afluencia_metro_medellin.csv), [`data/estaciones.csv`](data/estaciones.csv), [`data/generar_dataset.py`](data/generar_dataset.py) |
+| 2. Código fuente en Python | [`src/modelo_congestion.py`](src/modelo_congestion.py), [`src/predecir.py`](src/predecir.py) |
+| 3. Descripción de los datos | [`docs/Descripcion_de_los_datos.pdf`](docs/Descripcion_de_los_datos.pdf) (APA 7) · versión web: [`docs/descripcion_datos.md`](docs/descripcion_datos.md) |
+| 4. Pruebas realizadas | [`docs/Pruebas_realizadas.pdf`](docs/Pruebas_realizadas.pdf) (APA 7) · versión web: [`docs/pruebas.md`](docs/pruebas.md) · carpeta [`tests/`](tests) |
+| 5. Video | enlace en [`docs/Entrega_Actividad5.pdf`](docs/Entrega_Actividad5.pdf) |
 
-Puedes verificar tu versión de Python con:
+Resultados de la última ejecución: carpeta [`resultados/`](resultados).
 
-```bash
-python --version
-```
+## Cómo ejecutarlo
 
-## Instalación
-
-1. Clona este repositorio:
-
-```bash
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
-```
-
-2. Ingresa a la carpeta del proyecto:
+Se necesita Python 3.10 o superior.
 
 ```bash
-   cd nombre-del-repositorio
+pip install -r requirements.txt
+
+python data/generar_dataset.py      # (opcional) vuelve a crear el dataset
+python src/modelo_congestion.py     # entrena, evalúa y guarda resultados
+python -m pytest tests -v           # corre las 27 pruebas
+
+# Consultar un caso
+python src/predecir.py --estacion "San Antonio" --dia Viernes --hora 18
+python src/predecir.py --estacion Estadio --dia Sábado --hora 19 --evento
 ```
 
-No se necesita instalar dependencias adicionales.
+## Resultados
 
-## Ejecución
+| Métrica | Valor |
+|---|---|
+| Registros | 29.176 (80 % entrenamiento, 20 % prueba) |
+| Exactitud en prueba | **84,0 %** |
+| Línea base (decir siempre "Bajo") | 47,0 % |
+| Validación cruzada (5 particiones) | 83,7 % |
+| F1 macro | 0,830 |
+| Errores graves (confundir Bajo con Alto) | 0 de 5.836 |
 
-Ejecuta el script principal desde la terminal:
+![Matriz de confusión](resultados/matriz_confusion.png)
+
+![Importancia de variables](resultados/importancia_variables.png)
+
+## Advertencia sobre los datos
+
+La afluencia por estación es **simulada**. El Metro publica la afluencia por línea,
+no por estación, así que construimos una muestra con la misma estructura (punto 2 de
+la actividad). Los resultados demuestran que el método funciona, no describen la
+operación real del Metro. El detalle está en
+[`docs/Descripcion_de_los_datos.pdf`](docs/Descripcion_de_los_datos.pdf).
+
+## Documentos en PDF (APA 7)
+
+Los tres PDF de `docs/` se generan desde los archivos `.md` con normas APA 7.ª edición
+(portada, Times New Roman 12 a doble espacio, tablas y figuras numeradas, citas y
+referencias). Para regenerarlos, completar la configuración al inicio del script y ejecutar:
 
 ```bash
-python ruta_transporte_ai.py
+python docs/generar_pdfs_apa.py
 ```
 
-El programa mostrará el listado de estaciones disponibles y solicitará la estación de origen y de destino:
+## Referencias
 
-```
-======================================
-   SISTEMA INTELIGENTE DE RUTAS
-======================================
+Palma Méndez, J. T., y Marín Morales, R. L. (Coords.). (2008). *Inteligencia artificial: Métodos, técnicas y aplicaciones*. McGraw-Hill.
 
-Estaciones disponibles:
-- Niquía
-- Madera
-- Bello
-- Acevedo
-- Caribe
-- Universidad
-- Hospital
-- Prado
-- Parque Berrío
-- San Antonio
-- Alpujarra
-- Exposiciones
-- Industriales
-- Poblado
-- Aguacatala
-
-Ingrese la estación de origen: Niquía
-Ingrese la estación de destino: Hospital
-```
-
-### Salida esperada
-
-```
-Ruta encontrada:
-Niquía → Madera → Bello → Acevedo → Caribe → Universidad → Hospital
-Número de conexiones: 6
-```
-
-Si alguna de las estaciones ingresadas no existe en la base de conocimiento, el sistema mostrará un mensaje de error indicando que los datos ingresados son incorrectos.
-
-## Ejemplos de uso
-
-| Origen    | Destino     | Resultado esperado |
-|-----------|-------------|---------------------|
-| Niquía    | Hospital    | Niquía → Madera → Bello → Acevedo → Caribe → Universidad → Hospital |
-| Acevedo   | San Antonio | Acevedo → Parque Berrío → San Antonio |
-| Poblado   | Niquía      | Poblado → Industriales → Exposiciones → San Antonio → Parque Berrío → Acevedo → Bello → Madera → Niquía |
-
-## Estructura del proyecto
-
-```
-├── ruta_transporte_ai.py   # Código fuente del sistema inteligente
-└── README.md                # Instrucciones de uso del proyecto
-```
-
-## Conceptos aplicados
-
-- Representación del conocimiento mediante grafos y reglas lógicas
-- Sistemas basados en reglas
-- Búsqueda heurística informada (algoritmo A*)
-- Función heurística basada en distancia euclidiana
-
-## Curso
-
-Inteligencia Artificial — Facultad de Ingeniería, Corporación Universitaria Iberoamericana
-Docente: Sandra Bautista
+Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J., Passos, A., Cournapeau, D., Brucher, M., Perrot, M., y Duchesnay, É. (2011). Scikit-learn: Machine learning in Python. *Journal of Machine Learning Research, 12*, 2825–2830.
