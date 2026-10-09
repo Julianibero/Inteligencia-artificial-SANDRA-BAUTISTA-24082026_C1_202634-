@@ -1,6 +1,6 @@
 # Predicción de congestión en el Metro de Medellín
 
-**Inteligencia Artificial · Actividad 5 · Métodos supervisados**
+**Inteligencia Artificial · Actividad 3 · Métodos supervisados**
 Corporación Universitaria Iberoamericana · Ingeniería de Software
 
 Árbol de decisión que predice si una estación del Metro de Medellín (líneas A y B)
