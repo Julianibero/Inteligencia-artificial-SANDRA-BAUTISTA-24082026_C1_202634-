@@ -20,7 +20,7 @@ letra de la terminal y del editor.
 
 **En pantalla:** README del repositorio.
 
-> Hola, somos [nombres] y esta es la actividad 5 de Inteligencia Artificial: métodos
+> Hola, somos [nombres] y esta es la actividad 3 de Inteligencia Artificial: métodos
 > supervisados.
 >
 > Venimos trabajando sobre el transporte masivo, con el Metro de Medellín. En las

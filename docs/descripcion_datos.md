@@ -3,7 +3,7 @@
 ## Introducción
 
 Este documento describe los datos que alimentan el modelo de aprendizaje supervisado
-de la Actividad 5. El modelo es un árbol de decisión que predice, para cada estación
+de la Actividad 3. El modelo es un árbol de decisión que predice, para cada estación
 de las líneas A y B del Metro de Medellín y para cada hora, el nivel de congestión:
 `Bajo`, `Medio` o `Alto`. Se trata de un problema de clasificación supervisada, porque
 el algoritmo aprende a partir de ejemplos en los que la respuesta ya se conoce

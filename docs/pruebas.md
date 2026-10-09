@@ -3,7 +3,7 @@
 ## Introducción
 
 Este documento presenta las pruebas aplicadas al componente desarrollado en la
-Actividad 5: el árbol de decisión de `src/modelo_congestion.py` y el dataset que lo
+Actividad 3: el árbol de decisión de `src/modelo_congestion.py` y el dataset que lo
 alimenta. Las pruebas se ejecutaron el 7 de octubre de 2026 en un entorno con
 Python 3.13, scikit-learn 1.9, pandas 3.0 y pytest 9.1.
 

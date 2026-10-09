@@ -1,7 +1,7 @@
 """
 Genera los documentos de la actividad en PDF con normas APA (7.ª edición):
 
-    docs/Entrega_Actividad5.pdf          documento de entrega con los enlaces
+    docs/Entrega_Actividad3.pdf          documento de entrega con los enlaces
     docs/Descripcion_de_los_datos.pdf    a partir de docs/descripcion_datos.md
     docs/Pruebas_realizadas.pdf          a partir de docs/pruebas.md
 
@@ -31,15 +31,15 @@ from reportlab.platypus import (CondPageBreak, Image, KeepTogether, PageBreak,
                                 Spacer, Table, TableStyle)
 
 # ------------------------------ CONFIGURACIÓN ------------------------------
-REPO_URL = ""      # ej.: "https://github.com/usuario/metro-medellin-congestion"
-VIDEO_URL = ""     # ej.: "https://youtu.be/XXXXXXXX"
-RAMA = "main"
+REPO_URL = "https://github.com/Julianibero/Inteligencia-artificial-SANDRA-BAUTISTA-24082026_C1_202634-"
+VIDEO_URL = "https://www.youtube.com/watch?v=slo6jjVrCpQ"
+RAMA = "Actividad-3---M%C3%A9todos-de-aprendizaje-supervisado"  # rama de la actividad
 INTEGRANTES = ["Julian Vega Joya", "Alejandro Mora"]
-TUTOR = ""         # nombre del docente
-CURSO = "Inteligencia Artificial"
+TUTOR = "Sandra Bautista"
+CURSO = "Inteligencia Artificial (24082026_C1_202634)"
 PROGRAMA = "Ingeniería de Software"
 INSTITUCION = "Corporación Universitaria Iberoamericana"
-FECHA = "8 de octubre de 2026"
+FECHA = "9 de octubre de 2026"
 # ---------------------------------------------------------------------------
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -131,6 +131,7 @@ def en_linea(texto: str) -> str:
 
     texto = re.sub(r"`([^`]+)`", guardar_codigo, texto)
     texto = texto.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    texto = re.sub(r"(\d) (%)", "\\1\u00a0\\2", texto)  # evita separar el número del %
     texto = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r'<link href="\2"><u>\1</u></link>', texto)
     texto = re.sub(r"(?<![\"'>])(https?://[^\s<]+)", r'<link href="\1">\1</link>', texto)
     texto = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", texto)
@@ -368,6 +369,7 @@ def enlace_repo(ruta: str, carpeta: bool = False) -> str:
 
 
 def md_entrega() -> str:
+    """Llena la plantilla docs/entrega_plantilla.md con métricas y enlaces."""
     m = json.loads((RAIZ / "resultados" / "metricas.json").read_text(encoding="utf-8"))
     pct = lambda v: f"{v * 100:.1f} %".replace(".", ",")
 
@@ -375,100 +377,31 @@ def md_entrega() -> str:
         return f"{n:,}".replace(",", " ") if n >= 10000 else str(n)
 
     mc = m["matriz_confusion"]
-    graves = mc[0][2] + mc[2][0]
-    repo = f"[{REPO_URL}]({REPO_URL})" if REPO_URL else pendiente("enlace del repositorio")
-    video = f"[{VIDEO_URL}]({VIDEO_URL})" if VIDEO_URL else pendiente("enlace del video")
-
-    return f"""# Predicción del nivel de congestión en las estaciones del Metro de Medellín con árboles de decisión
-
-## Presentación
-
-Este documento reúne los enlaces de la Actividad 5 del curso, dedicada a los métodos
-de aprendizaje supervisado. El proyecto continúa el trabajo sobre el sistema de
-transporte masivo de las actividades anteriores: construye un árbol de decisión que
-predice si una estación de las líneas A y B del Metro de Medellín tendrá congestión
-baja, media o alta en una hora determinada, a partir de la estación, la hora, el día,
-el clima y la presencia de eventos masivos.
-
-## Enlaces de la entrega
-
-La Tabla 1 presenta los enlaces al repositorio y al video. El docente fue agregado como
-colaborador del repositorio para que pueda revisar el código y dejar comentarios.
-
-**Tabla 1**
-
-*Enlaces de la entrega*
-
-| Elemento | Enlace |
-|---|---|
-| Repositorio Git | {repo} |
-| Video explicativo (máximo 10 minutos) | {video} |
-
-## Elementos alojados en el repositorio
-
-Los cinco elementos solicitados se encuentran en el repositorio, como lo muestra la Tabla 2.
-
-**Tabla 2**
-
-*Ubicación de los entregables en el repositorio*
-
-| N.º | Entregable | Ubicación | Contenido |
-|---|---|---|---|
-| 1 | Archivos de fuentes de datos | {enlace_repo("data/afluencia_metro_medellin.csv")}, {enlace_repo("data/estaciones.csv")}, {enlace_repo("data/generar_dataset.py")} | Dataset de muestra con {miles(m["registros"])} registros horarios por estación, catálogo de estaciones y script que lo genera |
-| 2 | Código fuente en Python | {enlace_repo("src/modelo_congestion.py")}, {enlace_repo("src/predecir.py")} | Entrenamiento, evaluación y consulta del árbol de decisión |
-| 3 | Documento con la descripción de los datos | {enlace_repo("docs/Descripcion_de_los_datos.pdf")} | Fuentes identificadas, diccionario de datos, supuestos y limitaciones |
-| 4 | Documento con las pruebas realizadas | {enlace_repo("docs/Pruebas_realizadas.pdf")}, {enlace_repo("tests", carpeta=True)} | Evaluación del modelo, 27 pruebas automáticas y pruebas manuales |
-| 5 | Video | {video} | Explicación del proyecto, los comandos y los resultados, con la participación de todos los integrantes |
-
-## Resumen del proyecto
-
-Como no existe una fuente pública con la afluencia por estación y por hora, se
-construyó un dataset de muestra simulado, tal como lo permite el punto 2 de la
-actividad. Las estaciones, el calendario y el orden de magnitud de la demanda son
-reales; el número de pasajeros es simulado.
-
-El modelo es un árbol de decisión con criterio de entropía, es decir, de ganancia de
-información (Palma Méndez y Marín Morales, 2008), implementado con scikit-learn
-(Pedregosa et al., 2011). Sus hiperparámetros se eligieron con validación cruzada de
-cinco particiones. Los resultados se presentan en la Tabla 3.
-
-**Tabla 3**
-
-*Resultados obtenidos*
-
-| Métrica | Valor |
-|---|---|
-| Registros (entrenamiento / prueba) | {miles(m["registros"])} ({miles(m["registros_entrenamiento"])} / {miles(m["registros_prueba"])}) |
-| Exactitud en el conjunto de prueba | {pct(m["exactitud_prueba"])} |
-| Línea base (predecir siempre la clase más frecuente) | {pct(m["exactitud_linea_base"])} |
-| Exactitud en validación cruzada | {pct(m["exactitud_validacion_cruzada"])} |
-| Exactitud en entrenamiento | {pct(m["exactitud_entrenamiento"])} |
-| F1 macro | {f'{m["f1_macro_prueba"]:.3f}'.replace(".", ",")} |
-| Errores graves (confundir Bajo con Alto) | {graves} de {miles(m["registros_prueba"])} |
-| Pruebas automáticas aprobadas | 27 de 27 |
-
-## Ejecución del proyecto
-
-El proyecto se ejecuta con los siguientes comandos desde la carpeta del repositorio:
-
-```
-pip install -r requirements.txt
-python src/modelo_congestion.py
-python -m pytest tests -v
-python src/predecir.py --estacion "San Antonio" --dia Viernes --hora 18
-```
-
-## Referencias
-
-Palma Méndez, J. T., y Marín Morales, R. L. (Coords.). (2008). *Inteligencia artificial: Métodos, técnicas y aplicaciones*. McGraw-Hill.
-
-Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J., Passos, A., Cournapeau, D., Brucher, M., Perrot, M., y Duchesnay, É. (2011). Scikit-learn: Machine learning in Python. *Journal of Machine Learning Research, 12*, 2825–2830.
-"""
+    valores = {
+        "REGISTROS": f"{miles(m['registros'])} ({miles(m['registros_entrenamiento'])} / "
+                     f"{miles(m['registros_prueba'])})",
+        "EXACTITUD": pct(m["exactitud_prueba"]),
+        "BASE": pct(m["exactitud_linea_base"]),
+        "CV": pct(m["exactitud_validacion_cruzada"]),
+        "TRAIN": pct(m["exactitud_entrenamiento"]),
+        "F1": f"{m['f1_macro_prueba']:.3f}".replace(".", ","),
+        "GRAVES": f"{mc[0][2] + mc[2][0]} de {miles(m['registros_prueba'])}",
+        "REPO": (lambda u: f"[{u}]({u})")(f"{REPO_URL}/tree/{RAMA}") if REPO_URL else pendiente("enlace del repositorio"),
+        "VIDEO": f"[{VIDEO_URL}]({VIDEO_URL})" if VIDEO_URL else pendiente("enlace del video"),
+    }
+    texto = (DOCS / "entrega_plantilla.md").read_text(encoding="utf-8")
+    for clave, valor in valores.items():
+        texto = texto.replace("{{" + clave + "}}", valor)
+    texto = re.sub(r"\{\{ARCHIVO:([^}]+)\}\}", lambda x: enlace_repo(x.group(1)), texto)
+    texto = re.sub(r"\{\{CARPETA:([^}]+)\}\}", lambda x: enlace_repo(x.group(1), True), texto)
+    if "{{" in texto:
+        raise ValueError("Quedó un marcador sin reemplazar en la plantilla de entrega.")
+    return texto
 
 
 if __name__ == "__main__":
     print("PDF generados:")
-    construir_pdf(md_entrega(), DOCS, DOCS / "Entrega_Actividad5.pdf")
+    construir_pdf(md_entrega(), DOCS, DOCS / "Entrega_Actividad3.pdf")
     construir_pdf((DOCS / "descripcion_datos.md").read_text(encoding="utf-8"), DOCS,
                   DOCS / "Descripcion_de_los_datos.pdf")
     construir_pdf((DOCS / "pruebas.md").read_text(encoding="utf-8"), DOCS,

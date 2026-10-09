@@ -2,7 +2,7 @@
 Modelo de aprendizaje supervisado: árbol de decisión que predice el nivel de
 congestión (Bajo / Medio / Alto) de una estación del Metro de Medellín.
 
-Actividad 5 - Inteligencia Artificial - Métodos supervisados.
+Actividad 3 - Inteligencia Artificial - Métodos de aprendizaje supervisado.
 Base teórica: capítulo 17 de Palma Méndez (2008), aprendizaje de árboles y
 reglas de decisión. Se usa el criterio de entropía (ganancia de información),
 el mismo que emplean ID3 y C4.5.

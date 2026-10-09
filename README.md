@@ -1,6 +1,6 @@
 # Predicción de congestión en el Metro de Medellín
 
-**Inteligencia Artificial · Actividad 3 · Métodos supervisados**
+**Inteligencia Artificial · Actividad 3 · Métodos de aprendizaje supervisado**
 Corporación Universitaria Iberoamericana · Ingeniería de Software
 
 Árbol de decisión que predice si una estación del Metro de Medellín (líneas A y B)
@@ -26,7 +26,7 @@ a un planificador de rutas para recomendar bien.
 | 2. Código fuente en Python | [`src/modelo_congestion.py`](src/modelo_congestion.py), [`src/predecir.py`](src/predecir.py) |
 | 3. Descripción de los datos | [`docs/Descripcion_de_los_datos.pdf`](docs/Descripcion_de_los_datos.pdf) (APA 7) · versión web: [`docs/descripcion_datos.md`](docs/descripcion_datos.md) |
 | 4. Pruebas realizadas | [`docs/Pruebas_realizadas.pdf`](docs/Pruebas_realizadas.pdf) (APA 7) · versión web: [`docs/pruebas.md`](docs/pruebas.md) · carpeta [`tests/`](tests) |
-| 5. Video | enlace en [`docs/Entrega_Actividad5.pdf`](docs/Entrega_Actividad5.pdf) |
+| 5. Video | enlace en [`docs/Entrega_Actividad3.pdf`](docs/Entrega_Actividad3.pdf) |
 
 Resultados de la última ejecución: carpeta [`resultados/`](resultados).
 
