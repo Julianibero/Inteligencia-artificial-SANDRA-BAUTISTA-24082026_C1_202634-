@@ -1,0 +1,60 @@
+{
+  "registros": 29176,
+  "registros_entrenamiento": 23340,
+  "registros_prueba": 5836,
+  "variables_predictoras": [
+    "estacion",
+    "linea",
+    "tipo_zona",
+    "dia_semana",
+    "tipo_dia",
+    "clima",
+    "hora",
+    "es_transferencia",
+    "evento_especial"
+  ],
+  "mejores_hiperparametros": {
+    "max_depth": null,
+    "min_samples_leaf": 10
+  },
+  "exactitud_linea_base": 0.4697,
+  "exactitud_validacion_cruzada": 0.8369,
+  "exactitud_entrenamiento": 0.8593,
+  "exactitud_prueba": 0.8401,
+  "f1_macro_prueba": 0.83,
+  "profundidad_arbol": 31,
+  "hojas_arbol": 1017,
+  "clases": [
+    "Bajo",
+    "Medio",
+    "Alto"
+  ],
+  "matriz_confusion": [
+    [
+      2470,
+      271,
+      0
+    ],
+    [
+      337,
+      1733,
+      132
+    ],
+    [
+      0,
+      193,
+      700
+    ]
+  ],
+  "importancia_variables": {
+    "hora": 0.4043,
+    "estacion": 0.2294,
+    "tipo_dia": 0.1335,
+    "tipo_zona": 0.111,
+    "es_transferencia": 0.0494,
+    "dia_semana": 0.0237,
+    "linea": 0.0237,
+    "clima": 0.0158,
+    "evento_especial": 0.0092
+  }
+}

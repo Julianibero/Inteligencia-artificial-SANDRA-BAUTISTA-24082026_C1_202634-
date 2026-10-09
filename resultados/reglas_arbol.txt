@@ -1,0 +1,91 @@
+|--- hora <= 19.50
+|   |--- tipo_dia_Domingo_Festivo <= 0.50
+|   |   |--- hora <= 5.50
+|   |   |   |--- tipo_zona_Residencial <= 0.50
+|   |   |   |   |--- hora <= 4.50
+|   |   |   |   |   |--- class: Bajo
+|   |   |   |   |--- hora >  4.50
+|   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |--- tipo_zona_Residencial >  0.50
+|   |   |   |   |--- hora <= 4.50
+|   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |--- hora >  4.50
+|   |   |   |   |   |--- truncated branch of depth 14
+|   |   |--- hora >  5.50
+|   |   |   |--- tipo_zona_Centro_Empleo <= 0.50
+|   |   |   |   |--- hora <= 8.50
+|   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |--- hora >  8.50
+|   |   |   |   |   |--- truncated branch of depth 25
+|   |   |   |--- tipo_zona_Centro_Empleo >  0.50
+|   |   |   |   |--- hora <= 15.50
+|   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |--- hora >  15.50
+|   |   |   |   |   |--- truncated branch of depth 10
+|   |--- tipo_dia_Domingo_Festivo >  0.50
+|   |   |--- hora <= 8.50
+|   |   |   |--- hora <= 7.50
+|   |   |   |   |--- estacion_San Antonio <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- estacion_San Antonio >  0.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |--- hora >  7.50
+|   |   |   |   |--- estacion_San Antonio <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |--- estacion_San Antonio >  0.50
+|   |   |   |   |   |--- class: Medio
+|   |   |--- hora >  8.50
+|   |   |   |--- es_transferencia <= 0.50
+|   |   |   |   |--- linea_A <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |--- linea_A >  0.50
+|   |   |   |   |   |--- truncated branch of depth 27
+|   |   |   |--- es_transferencia >  0.50
+|   |   |   |   |--- tipo_zona_Residencial <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |--- tipo_zona_Residencial >  0.50
+|   |   |   |   |   |--- truncated branch of depth 9
+|--- hora >  19.50
+|   |--- tipo_zona_Centro_Empleo <= 0.50
+|   |   |--- evento_especial <= 0.50
+|   |   |   |--- hora <= 20.50
+|   |   |   |   |--- dia_semana_Sábado <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |--- dia_semana_Sábado >  0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- hora >  20.50
+|   |   |   |   |--- estacion_Itagüí <= 0.50
+|   |   |   |   |   |--- class: Bajo
+|   |   |   |   |--- estacion_Itagüí >  0.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |--- evento_especial >  0.50
+|   |   |   |--- hora <= 20.50
+|   |   |   |   |--- estacion_Suramericana <= 0.50
+|   |   |   |   |   |--- class: Medio
+|   |   |   |   |--- estacion_Suramericana >  0.50
+|   |   |   |   |   |--- class: Medio
+|   |   |   |--- hora >  20.50
+|   |   |   |   |--- clima_Lluvia <= 0.50
+|   |   |   |   |   |--- class: Bajo
+|   |   |   |   |--- clima_Lluvia >  0.50
+|   |   |   |   |   |--- class: Medio
+|   |--- tipo_zona_Centro_Empleo >  0.50
+|   |   |--- hora <= 21.50
+|   |   |   |--- tipo_dia_Laboral <= 0.50
+|   |   |   |   |--- dia_semana_Sábado <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |--- dia_semana_Sábado >  0.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- tipo_dia_Laboral >  0.50
+|   |   |   |   |--- hora <= 20.50
+|   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |--- hora >  20.50
+|   |   |   |   |   |--- truncated branch of depth 12
+|   |   |--- hora >  21.50
+|   |   |   |--- estacion_San Antonio <= 0.50
+|   |   |   |   |--- class: Bajo
+|   |   |   |--- estacion_San Antonio >  0.50
+|   |   |   |   |--- linea_B <= 0.50
+|   |   |   |   |   |--- class: Bajo
+|   |   |   |   |--- linea_B >  0.50
+|   |   |   |   |   |--- class: Bajo
