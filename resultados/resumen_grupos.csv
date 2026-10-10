@@ -1,0 +1,6 @@
+grupo,nombre,perfiles,porcentaje,hora_pico,fraccion_en_pico,pasajeros_dia_promedio,estaciones_distintas,con_evento
+1,Laboral residencial,444,28.3,6,0.119,22164,12,0
+2,Laboral centro,401,25.6,17,0.114,31887,11,30
+3,Laboral mixta,205,13.1,17,0.087,19287,6,0
+4,Sábado,214,13.6,12,0.07,23485,27,0
+5,Domingo y festivo,304,19.4,17,0.08,14255,27,0

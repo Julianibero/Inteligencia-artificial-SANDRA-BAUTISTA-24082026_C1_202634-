@@ -1,0 +1,10 @@
+tipo_dia,tipo_zona,1,2,3,4,5
+Domingo_Festivo,Centro_Empleo,0,0,0,0,110
+Domingo_Festivo,Mixta,0,4,0,0,62
+Domingo_Festivo,Residencial,0,0,0,0,132
+Laboral,Centro_Empleo,0,370,0,0,0
+Laboral,Mixta,0,17,205,0,0
+Laboral,Residencial,444,0,0,0,0
+Sábado,Centro_Empleo,0,0,0,80,0
+Sábado,Mixta,0,10,0,38,0
+Sábado,Residencial,0,0,0,96,0

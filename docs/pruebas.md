@@ -1,297 +1,232 @@
-# Pruebas realizadas al modelo de predicción de congestión del Metro de Medellín
+# Pruebas realizadas al modelo de agrupamiento de patrones de demanda del Metro de Medellín
 
 ## Introducción
 
 Este documento presenta las pruebas aplicadas al componente desarrollado en la
-Actividad 5: el árbol de decisión de `src/modelo_congestion.py` y el dataset que lo
-alimenta. Las pruebas se ejecutaron el 7 de octubre de 2026 en un entorno con
-Python 3.13, scikit-learn 1.9, pandas 3.0 y pytest 9.1.
+Actividad 4: el agrupamiento de `src/agrupamiento.py` y los perfiles de demanda que lo
+alimentan. Las pruebas se ejecutaron el 9 de octubre de 2026 en un entorno con
+Python 3.13, scikit-learn 1.9, SciPy 1.18 y pytest 9.1.
+
+Probar un modelo no supervisado es distinto de probar uno supervisado, porque no
+existe una respuesta correcta con la cual comparar cada caso. Por eso se combinaron
+medidas internas, que evalúan qué tan compactos y separados están los grupos, con
+medidas externas, que comparan los grupos con información que el algoritmo no recibió
+(Hastie et al., 2009).
 
 ## Metodología
 
 Se aplicaron tres tipos de prueba:
 
-1. Evaluación estadística del modelo, para medir qué tan bien clasifica datos que nunca vio.
-2. Pruebas automáticas con pytest (27 casos), que revisan la calidad de los datos y el comportamiento del modelo y se pueden repetir en cualquier momento.
-3. Pruebas manuales de casos, mediante consultas desde la línea de comandos para comprobar que las respuestas tienen sentido.
+1. Evaluación del agrupamiento: elección del número de grupos con el método del codo y el coeficiente de silueta, comparación entre k-means y el método jerárquico de Ward, y validación contra el tipo de día y de zona.
+2. Pruebas automáticas con pytest (17 casos), que revisan la calidad de los perfiles y el comportamiento del agrupamiento.
+3. Pruebas manuales de consulta desde la línea de comandos.
 
-Para repetir las pruebas se ejecutan estos comandos desde la carpeta del proyecto:
+Para repetirlas se ejecutan estos comandos desde la carpeta del proyecto:
 
 ```
-python src/modelo_congestion.py
+python src/agrupamiento.py
 python -m pytest tests -v
 ```
 
-## Evaluación estadística del modelo
+## Evaluación del agrupamiento
 
-### Protocolo
+### Elección del número de grupos
 
-- Se usaron 29 176 registros, divididos en 80 % para entrenamiento (23 340) y 20 % para prueba (5836). La división fue estratificada por la etiqueta y con semilla fija (42).
-- Los hiperparámetros se eligieron solo con los datos de entrenamiento, mediante validación cruzada de cinco particiones. El conjunto de prueba se usó una única vez, al final.
-- El árbol usa la entropía como criterio de división, es decir, la ganancia de información en la que se basan los algoritmos ID3 y C4.5 (Palma Méndez y Marín Morales, 2008). La implementación es la de scikit-learn (Pedregosa et al., 2011).
-
-### Búsqueda de hiperparámetros
-
-Se probaron 35 combinaciones: siete profundidades y cinco tamaños mínimos de hoja
-(Tabla 1).
+K-means necesita que se le indique cuántos grupos buscar. Se probaron valores de k
+entre 2 y 10 y, para cada uno, se midieron la inercia (la suma de distancias de cada
+perfil al centro de su grupo) y el coeficiente de silueta (Tabla 1 y Figura 1).
 
 **Tabla 1**
 
-*Hiperparámetros evaluados con validación cruzada*
+*Inercia y coeficiente de silueta según el número de grupos*
 
-| Hiperparámetro | Valores probados | Valor elegido |
+| k | Inercia | Silueta |
 |---|---|---|
-| `max_depth` | 3, 5, 8, 10, 12, 15 y sin límite | Sin límite |
-| `min_samples_leaf` | 1, 5, 10, 20 y 40 | 10 |
-
-El árbol resultante tiene profundidad 31 y 1017 hojas. Es grande porque la estación se
-codifica en 27 columnas de ceros y unos, y el árbol solo puede preguntar por una
-estación a la vez. Lo que controla el sobreajuste es el tamaño mínimo de hoja: ninguna
-regla puede apoyarse en menos de 10 ejemplos, lo que cumple el papel de la poda.
-
-### Resultados en el conjunto de prueba
-
-La Tabla 2 resume el desempeño general.
-
-**Tabla 2**
-
-*Desempeño general del modelo*
-
-| Métrica | Valor |
-|---|---|
-| Exactitud en prueba | 84,0 % |
-| Exactitud en validación cruzada | 83,7 % |
-| Exactitud en entrenamiento | 85,9 % |
-| F1 macro | 0,830 |
-| Línea base (predecir siempre "Bajo") | 47,0 % |
-
-El modelo acierta 37 puntos porcentuales más que la línea base, y la diferencia entre
-entrenamiento y prueba es de 1,9 puntos, lo que indica que generaliza y no memorizó
-los datos. La Tabla 3 muestra el desempeño por clase.
-
-**Tabla 3**
-
-*Desempeño por nivel de congestión en el conjunto de prueba*
-
-| Nivel | Precisión | Exhaustividad (recall) | F1 | Casos |
-|---|---|---|---|---|
-| Bajo | 0,880 | 0,901 | 0,890 | 2741 |
-| Medio | 0,789 | 0,787 | 0,788 | 2202 |
-| Alto | 0,841 | 0,784 | 0,812 | 893 |
-
-La matriz de confusión (Tabla 4 y Figura 1) compara el nivel real con el que predijo
-el modelo.
-
-**Tabla 4**
-
-*Matriz de confusión del conjunto de prueba*
-
-| Nivel real | Predijo Bajo | Predijo Medio | Predijo Alto |
-|---|---|---|---|
-| Bajo | 2470 | 271 | 0 |
-| Medio | 337 | 1733 | 132 |
-| Alto | 0 | 193 | 700 |
+| 2 | 18 013,7 | 0,362 |
+| 3 | 12 300,9 | 0,372 |
+| 4 | 10 662,8 | 0,307 |
+| 5 | 9181,7 | 0,308 |
+| 6 | 8915,5 | 0,271 |
+| 7 | 8727,7 | 0,183 |
+| 8 | 8555,6 | 0,143 |
+| 9 | 8412,6 | 0,130 |
+| 10 | 8288,6 | 0,131 |
 
 **Figura 1**
 
-*Matriz de confusión del conjunto de prueba*
+*Método del codo y coeficiente de silueta*
 
-![Matriz de confusión](../resultados/matriz_confusion.png)
+![Codo y silueta](../resultados/codo_silueta.png)
 
-Ningún caso `Alto` se predijo como `Bajo`, ni al contrario. Los 933 errores ocurren
-entre niveles vecinos (Bajo y Medio, o Medio y Alto), que son los menos costosos. El
-punto débil es el nivel `Medio`, que está en la mitad y se confunde hacia ambos lados.
+La inercia siempre baja al aumentar k, pero deja de bajar de forma importante a partir
+de k = 5: de 4 a 5 grupos cae 1481 unidades y de 5 a 6 solo 266. Ese quiebre es el
+"codo" de la curva (Thorndike, 1953). Para no elegirlo a ojo, el programa lo detecta
+como el punto más alejado de la recta que une el primer y el último valor, y el
+resultado es k = 5.
 
-### Techo teórico de exactitud
+La silueta más alta está en k = 3. Con tres grupos el algoritmo separa solo días
+laborales residenciales, días laborales de centro y fines de semana, una división
+correcta pero gruesa. Se eligió k = 5 porque coincide con el codo, mantiene una silueta
+casi igual a la de k = 4 y produce grupos con significado operativo distinto. Una
+silueta de 0,31 indica una estructura de grupos razonable (Rousseeuw, 1987).
 
-El modelo no llega al 100 % porque los datos tienen ruido aleatorio a propósito: una
-hora cuyo índice esperado es 0,79 a veces queda en 0,82 (`Alto`) y a veces en 0,76
-(`Medio`), y eso no se puede predecir con las variables disponibles. Se calculó la
-exactitud que tendría alguien que conociera la fórmula exacta con la que se generaron
-los datos, sin el ruido: 85,4 %. El árbol alcanza 84,0 %, es decir, aprendió casi todo
-lo que era posible aprender.
+### Grupos encontrados
 
-### Efecto de la profundidad y sobreajuste
+La Tabla 2 describe los cinco grupos. El nombre de cada grupo se asignó después de
+agrupar, mirando qué tipo de día y de zona predomina en él.
 
-La Tabla 5 y la Figura 2 muestran qué pasa al variar solo la profundidad máxima, con
-un tamaño mínimo de hoja de 1.
+**Tabla 2**
 
-**Tabla 5**
+*Grupos encontrados por k-means*
 
-*Exactitud según la profundidad máxima del árbol*
+| Grupo | Nombre | Perfiles | Porcentaje | Hora pico | Estaciones |
+|---|---|---|---|---|---|
+| 1 | Laboral residencial | 444 | 28,3 % | 6:00 | 12 |
+| 2 | Laboral centro | 401 | 25,6 % | 17:00 | 11 |
+| 3 | Laboral mixta | 205 | 13,1 % | 17:00 | 6 |
+| 4 | Sábado | 214 | 13,6 % | 12:00 | 27 |
+| 5 | Domingo y festivo | 304 | 19,4 % | 17:00 | 27 |
 
-| Profundidad | Entrenamiento | Validación cruzada |
-|---|---|---|
-| 2 | 55,2 % | 55,2 % |
-| 4 | 62,4 % | 62,4 % |
-| 6 | 70,5 % | 70,3 % |
-| 8 | 77,6 % | 77,0 % |
-| 10 | 80,2 % | 78,8 % |
-| 12 | 82,5 % | 80,0 % |
-| 14 | 84,8 % | 80,9 % |
-| 16 | 86,6 % | 81,5 % |
-| 20 | 88,5 % | 81,1 % |
-| 25 | 89,6 % | 80,5 % |
+La Figura 2 muestra el perfil medio de cada grupo. El grupo 1 concentra el 12 % de su
+demanda diaria a las 6:00, cuando la gente sale de los barrios hacia el trabajo; el
+grupo 2 tiene su pico a las 17:00, cuando regresa; el grupo 3 tiene dos picos
+moderados; y los grupos 4 y 5 reparten la demanda a lo largo del día.
 
 **Figura 2**
 
-*Exactitud en entrenamiento y en validación cruzada según la profundidad*
+*Perfil horario medio de cada grupo*
 
-![Curva de profundidad](../resultados/curva_profundidad.png)
+![Perfiles por grupo](../resultados/perfiles_por_grupo.png)
 
-A partir de la profundidad 16 la exactitud de entrenamiento sigue subiendo, pero la de
-validación baja: el árbol empieza a memorizar el ruido. Este es el sobreajuste que
-justifica la poda de los árboles de decisión (Palma Méndez y Marín Morales, 2008). Con
-un tamaño mínimo de hoja de 10, la validación sube a 83,7 %, por encima de cualquier
-punto de la curva.
-
-### Estructura del árbol e importancia de las variables
-
-La Figura 3 muestra los dos primeros niveles del árbol. La primera pregunta es si la hora
-es anterior a las 20:00. En las horas del día, la siguiente pregunta es si se trata de
-un domingo o festivo; en la noche, el tipo de zona.
+La Figura 3 proyecta los 1568 perfiles en dos dimensiones mediante análisis de
+componentes principales, que en conjunto conservan el 69 % de la variación. Los cinco
+grupos aparecen como nubes separadas.
 
 **Figura 3**
 
-*Primeros dos niveles del árbol de decisión*
+*Los grupos proyectados en dos dimensiones*
 
-![Árbol de decisión](../resultados/arbol_decision.png)
+![Proyección PCA](../resultados/pca_grupos.png)
 
-La Tabla 6 y la Figura 4 muestran cuánto aporta cada variable a las decisiones del árbol.
+### Comparación con el método jerárquico
 
-**Tabla 6**
-
-*Importancia de las variables en el árbol*
-
-| Variable | Importancia |
-|---|---|
-| `hora` | 40,4 % |
-| `estacion` | 22,9 % |
-| `tipo_dia` | 13,4 % |
-| `tipo_zona` | 11,1 % |
-| `es_transferencia` | 4,9 % |
-| `dia_semana` | 2,4 % |
-| `linea` | 2,4 % |
-| `clima` | 1,6 % |
-| `evento_especial` | 0,9 % |
+Para comprobar que los grupos no dependen del algoritmo, se repitió el agrupamiento con
+el método jerárquico aglomerativo de Ward (1963), que parte de cada perfil como un grupo
+y los va uniendo de a dos. La Figura 4 muestra el dendrograma y el corte en cinco
+grupos. La coincidencia entre ambos métodos, medida con el índice de Rand ajustado
+(Hubert y Arabie, 1985), es de 0,999, prácticamente total.
 
 **Figura 4**
 
-*Importancia de las variables en el árbol*
+*Dendrograma del agrupamiento jerárquico de Ward*
 
-![Importancia de variables](../resultados/importancia_variables.png)
+![Dendrograma](../resultados/dendrograma.png)
 
-La hora y la estación explican casi dos tercios de la decisión. La variable
-`evento_especial` pesa poco en el total porque solo aplica al 0,5 % de los registros,
-pero donde aplica cambia la predicción, como lo muestran los casos 7 y 8 de la Tabla 9.
+### Validación con información externa
+
+El tipo de día y el tipo de zona no se le entregaron al algoritmo, así que sirven para
+verificar si los grupos tienen sentido. La Tabla 3 cruza los grupos con esas variables.
+
+**Tabla 3**
+
+*Grupos frente al tipo de día y de zona*
+
+| Tipo de día y zona | Grupo 1 | Grupo 2 | Grupo 3 | Grupo 4 | Grupo 5 |
+|---|---|---|---|---|---|
+| Laboral, residencial | 444 | 0 | 0 | 0 | 0 |
+| Laboral, centro y empleo | 0 | 370 | 0 | 0 | 0 |
+| Laboral, mixta | 0 | 17 | 205 | 0 | 0 |
+| Sábado, residencial | 0 | 0 | 0 | 96 | 0 |
+| Sábado, centro y empleo | 0 | 0 | 0 | 80 | 0 |
+| Sábado, mixta | 0 | 10 | 0 | 38 | 0 |
+| Domingo o festivo, residencial | 0 | 0 | 0 | 0 | 132 |
+| Domingo o festivo, centro y empleo | 0 | 0 | 0 | 0 | 110 |
+| Domingo o festivo, mixta | 0 | 4 | 0 | 0 | 62 |
+
+El índice de Rand ajustado entre los grupos y esta clasificación es de 0,955. Las únicas
+diferencias son 31 perfiles de zonas mixtas que el algoritmo puso en el grupo de centro.
+Al revisarlos, 30 son de las estaciones Estadio y Suramericana en días de partido: con
+el evento, esas estaciones reciben una avalancha de gente en la tarde y su patrón se
+vuelve igual al de una estación del centro. El algoritmo descubrió ese efecto sin que
+nadie le dijera que había partidos.
 
 ## Pruebas automáticas
 
-Las 27 pruebas automáticas pasaron, con un tiempo de ejecución de 18 segundos. La
-Tabla 7 presenta las pruebas de calidad de los datos (`tests/test_datos.py`).
+Las 17 pruebas automáticas se aprobaron, con un tiempo de ejecución de 3 segundos. La
+Tabla 4 presenta las pruebas de los perfiles (`tests/test_datos.py`).
 
-**Tabla 7**
+**Tabla 4**
 
-*Pruebas de calidad de los datos*
+*Pruebas de calidad de los perfiles*
 
 | ID | Qué verifica | Resultado |
 |---|---|---|
-| D1 | El archivo tiene las 13 columnas esperadas, en orden | Aprobada |
-| D2 | No hay valores nulos | Aprobada |
-| D3 | No hay registros duplicados (misma fecha, hora, línea y estación) | Aprobada |
-| D4 | Las horas están dentro del horario de operación (4 a 22; domingos 5 a 21) | Aprobada |
-| D5 | Hay 27 estaciones (21 en la línea A y 7 en la B) y coinciden con el catálogo | Aprobada |
-| D6 | Las variables categóricas solo tienen valores válidos | Aprobada |
-| D7 | La etiqueta corresponde a los umbrales y el índice es pasajeros entre capacidad | Aprobada |
-| D8 | Los tres festivos del periodo están marcados como Domingo_Festivo | Aprobada |
-| D9 | El generador es reproducible: al ejecutarlo de nuevo produce el mismo archivo | Aprobada |
+| D1 | Hay exactamente un perfil por estación, línea y día (1568) | Aprobada |
+| D2 | Cada perfil tiene las 19 horas de 4:00 a 22:00 | Aprobada |
+| D3 | No hay valores nulos | Aprobada |
+| D4 | Cada perfil suma 1 y no tiene valores negativos | Aprobada |
+| D5 | El total de pasajeros de los perfiles coincide con el del archivo de afluencia | Aprobada |
+| D6 | Los domingos y festivos no tienen ingresos a las 4:00 ni a las 22:00 | Aprobada |
 
-La Tabla 8 presenta las pruebas del comportamiento del modelo (`tests/test_modelo.py`).
+La Tabla 5 presenta las pruebas del agrupamiento (`tests/test_modelo.py`).
 
-**Tabla 8**
+**Tabla 5**
 
-*Pruebas del comportamiento del modelo*
+*Pruebas del comportamiento del agrupamiento*
 
 | ID | Qué verifica | Criterio | Obtenido | Resultado |
 |---|---|---|---|---|
-| M1 | No hay fuga de información: el modelo no usa `pasajeros_hora` ni `indice_ocupacion` | 0 columnas prohibidas | 0 | Aprobada |
-| M2 | Exactitud mínima en prueba | 80 % o más | 84,0 % | Aprobada |
-| M3 | Ventaja sobre la línea base | 25 puntos o más | 37,0 puntos | Aprobada |
-| M4 | Sobreajuste controlado (entrenamiento menos prueba) | 5 puntos o menos | 1,9 puntos | Aprobada |
-| M5 | Exhaustividad de la clase `Alto` | 70 % o más | 78,4 % | Aprobada |
-| M6 | Errores graves (confundir Bajo con Alto) | Menos de 1 % | 0 % | Aprobada |
-| M7 | Dos entrenamientos con los mismos datos dan las mismas predicciones | Idénticas | Idénticas | Aprobada |
-| M8 | Casos de sentido común (Tabla 9) | 8 de 8 | 8 de 8 | Aprobada |
-| M9 | Una estación que no existe en el entrenamiento no rompe el modelo | Clase válida | Clase válida | Aprobada |
-| M10 | Las probabilidades están entre 0 y 1 y suman 1 | Siempre | Siempre | Aprobada |
-| M11 | Un archivo sin las columnas necesarias se rechaza con un error claro | `ValueError` | `ValueError` | Aprobada |
-
-La Tabla 9 detalla los casos de sentido común de la prueba M8. Los casos 2 y 3, y los
-casos 7 y 8, son pares: la misma estación a la misma hora, cambiando una sola variable.
-Sirven para comprobar que el árbol aprendió el efecto del festivo y del evento.
-
-**Tabla 9**
-
-*Casos de sentido común evaluados en la prueba M8*
-
-| Caso | Estación | Día y hora | Condición | Esperado | Predicho |
-|---|---|---|---|---|---|
-| 1 | San Antonio (A) | Viernes 18:00 | Ninguna | Alto | Alto |
-| 2 | Niquía | Lunes 6:00 | Ninguna | Alto | Alto |
-| 3 | Niquía | Lunes 6:00 | Festivo | Bajo | Bajo |
-| 4 | La Estrella | Domingo 6:00 | Lluvia | Bajo | Bajo |
-| 5 | Poblado | Martes 22:00 | Ninguna | Bajo | Bajo |
-| 6 | Madera | Martes 7:00 | Ninguna | Medio | Medio |
-| 7 | Estadio | Sábado 19:00 | Sin partido | Bajo | Bajo |
-| 8 | Estadio | Sábado 19:00 | Con partido | Alto | Alto |
+| M1 | El método del codo elige cinco grupos | k = 5 | k = 5 | Aprobada |
+| M2 | Separación aceptable entre grupos | Silueta mayor que 0,25 | 0,308 | Aprobada |
+| M3 | Ningún grupo vacío ni diminuto | Cada grupo con más del 5 % | Mínimo 13,1 % | Aprobada |
+| M4 | K-means y Ward coinciden | ARI mayor que 0,90 | 0,999 | Aprobada |
+| M5 | Los grupos recuperan el tipo de día y de zona | ARI mayor que 0,85 | 0,955 | Aprobada |
+| M6 | Ningún grupo mezcla días laborales con fines de semana | Pureza mayor que 90 % | Cumple | Aprobada |
+| M7 | Dos ejecuciones dan los mismos grupos | ARI igual a 1 | 1 | Aprobada |
+| M8 | Los días de partido quedan con el patrón de centro | Más del 90 % | 100 % | Aprobada |
+| M9 | Un perfil nuevo con pico a las 6:00 va al grupo residencial, y el mismo invertido, al de centro | 2 de 2 | 2 de 2 | Aprobada |
+| M10 | Un archivo sin las columnas necesarias se rechaza con un error claro | `ValueError` | `ValueError` | Aprobada |
 
 ## Pruebas manuales
 
-Se hicieron consultas desde la línea de comandos con `src/predecir.py`. Las tres
-primeras comprueban predicciones normales; las dos últimas, entradas inválidas que el
-programa rechaza con un mensaje comprensible en lugar de fallar.
+Se hicieron consultas desde la línea de comandos con `src/consultar.py`. La última
+comprueba que el programa rechaza una estación que no existe con un mensaje comprensible.
 
 ```
-> python src/predecir.py --estacion "San Antonio" --dia Viernes --hora 18
-Nivel de congestión esperado: ALTO
+> python src/consultar.py --estacion "San Antonio"
+Estación San Antonio: 112 días analizados
+  Laboral centro        74 días (66%)
+  Domingo y festivo     22 días (20%)
+  Sábado                16 días (14%)
 
-> python src/predecir.py --estacion Suramericana --dia Miércoles --hora 18
-Nivel de congestión esperado: MEDIO
+> python src/consultar.py --estacion Estadio --dia Sábado
+Estación Estadio · Sábado: 8 días analizados
+  Laboral centro         5 días (62%)
+  Sábado                 3 días (38%)
+  (de esos días, 5 tuvieron partido en el estadio y quedaron en: Laboral centro)
 
-> python src/predecir.py --estacion Suramericana --dia Miércoles --hora 18 --evento
-Nivel de congestión esperado: ALTO
-
-> python src/predecir.py --estacion Chapinero --dia Martes --hora 7
+> python src/consultar.py --estacion Chapinero
 Estación no encontrada: 'Chapinero'.
-
-> python src/predecir.py --estacion Poblado --dia Martes --hora 3
-La hora debe estar entre 4 y 22 (horario de operación).
 ```
 
-## Hallazgo durante las pruebas
-
-En la primera versión del dataset solo había seis fechas de partido, es decir, 60
-registros con evento (0,2 % del total). Al probar el caso 8, el modelo respondió `Bajo`
-con partido y sin partido: no había aprendido el efecto del evento, y la importancia de
-esa variable era de 0,1 %. Con tan pocos ejemplos, y con un mínimo de 10 por hoja, el
-árbol no tenía de dónde sacar esa regla.
-
-El problema se corrigió ampliando la muestra a 15 fechas de partido (150 registros),
-lo que además es más realista para un estadio con dos equipos locales. Después del
-cambio el caso 8 se aprueba y la exactitud general se mantuvo (pasó de 83,8 % a
-84,0 %). La lección es que una exactitud global alta puede ocultar fallas en los casos
-poco frecuentes, que a veces son justamente los que más interesa predecir. Por eso los
-casos 7 y 8 quedaron como prueba automática.
+La segunda consulta muestra el hallazgo de la Tabla 3 en un caso concreto: los sábados
+sin partido la estación Estadio se comporta como un sábado normal, y los sábados con
+partido, como una estación del centro.
 
 ## Limitaciones
 
-- Las pruebas miden qué tan bien el árbol recupera patrones de datos simulados. No demuestran que vaya a alcanzar 84 % con datos reales del Metro.
-- La división entre entrenamiento y prueba es aleatoria. Con datos reales convendría probar también una división por fechas: entrenar con semanas pasadas y evaluar con semanas posteriores.
-- El efecto de la lluvia es pequeño (12 %) y el árbol casi no lo usa (1,6 % de importancia); solo cambia la predicción en casos cercanos a un umbral.
-- Con otras versiones de scikit-learn los resultados pueden variar en décimas.
+- Los perfiles provienen de datos simulados a partir de tipos de zona y de día, así que era esperable que el algoritmo los recuperara. Con datos reales los grupos serían menos nítidos.
+- K-means supone grupos de forma aproximadamente esférica y de tamaño parecido; con datos reales convendría probar también métodos basados en densidad.
+- El número de grupos se eligió con el codo; la silueta sugiere tres, de modo que la elección final combina las medidas con la interpretación.
 
 ## Referencias
 
-Palma Méndez, J. T., y Marín Morales, R. L. (Coords.). (2008). *Inteligencia artificial: Métodos, técnicas y aplicaciones*. McGraw-Hill.
+Hastie, T., Tibshirani, R., y Friedman, J. (2009). *The elements of statistical learning: Data mining, inference, and prediction* (2.ª ed.). Springer. https://doi.org/10.1007/978-0-387-84858-7
 
-Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J., Passos, A., Cournapeau, D., Brucher, M., Perrot, M., y Duchesnay, É. (2011). Scikit-learn: Machine learning in Python. *Journal of Machine Learning Research, 12*, 2825–2830.
+Hubert, L., y Arabie, P. (1985). Comparing partitions. *Journal of Classification, 2*(1), 193–218. https://doi.org/10.1007/BF01908075
+
+Rousseeuw, P. J. (1987). Silhouettes: A graphical aid to the interpretation and validation of cluster analysis. *Journal of Computational and Applied Mathematics, 20*, 53–65. https://doi.org/10.1016/0377-0427(87)90125-7
+
+Thorndike, R. L. (1953). Who belongs in the family? *Psychometrika, 18*(4), 267–276. https://doi.org/10.1007/BF02289263
+
+Ward, J. H., Jr. (1963). Hierarchical grouping to optimize an objective function. *Journal of the American Statistical Association, 58*(301), 236–244. https://doi.org/10.1080/01621459.1963.10500845

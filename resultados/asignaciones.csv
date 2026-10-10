@@ -1,0 +1,1569 @@
+fecha,linea,estacion,dia_semana,tipo_dia,tipo_zona,hubo_evento,grupo,nombre_grupo
+2026-03-02,A,Acevedo,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-02,A,Aguacatala,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-02,A,Alpujarra,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-02,A,Ayurá,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-02,A,Bello,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-02,A,Caribe,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-02,A,Envigado,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-02,A,Exposiciones,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-02,A,Hospital,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-02,A,Industriales,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-02,A,Itagüí,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-02,A,La Estrella,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-02,A,Madera,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-02,A,Niquía,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-02,A,Parque Berrío,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-02,A,Poblado,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-02,A,Prado,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-02,A,Sabaneta,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-02,A,San Antonio,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-02,A,Tricentenario,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-02,A,Universidad,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-02,B,Cisneros,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-02,B,Estadio,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-02,B,Floresta,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-02,B,San Antonio,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-02,B,San Javier,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-02,B,Santa Lucía,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-02,B,Suramericana,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-03,A,Acevedo,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-03,A,Aguacatala,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-03,A,Alpujarra,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-03,A,Ayurá,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-03,A,Bello,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-03,A,Caribe,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-03,A,Envigado,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-03,A,Exposiciones,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-03,A,Hospital,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-03,A,Industriales,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-03,A,Itagüí,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-03,A,La Estrella,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-03,A,Madera,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-03,A,Niquía,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-03,A,Parque Berrío,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-03,A,Poblado,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-03,A,Prado,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-03,A,Sabaneta,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-03,A,San Antonio,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-03,A,Tricentenario,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-03,A,Universidad,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-03,B,Cisneros,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-03,B,Estadio,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-03,B,Floresta,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-03,B,San Antonio,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-03,B,San Javier,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-03,B,Santa Lucía,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-03,B,Suramericana,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-04,A,Acevedo,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-04,A,Aguacatala,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-03-04,A,Alpujarra,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-04,A,Ayurá,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-03-04,A,Bello,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-04,A,Caribe,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-03-04,A,Envigado,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-04,A,Exposiciones,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-04,A,Hospital,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-04,A,Industriales,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-04,A,Itagüí,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-04,A,La Estrella,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-04,A,Madera,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-04,A,Niquía,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-04,A,Parque Berrío,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-04,A,Poblado,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-04,A,Prado,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-04,A,Sabaneta,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-04,A,San Antonio,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-04,A,Tricentenario,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-04,A,Universidad,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-03-04,B,Cisneros,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-04,B,Estadio,Miércoles,Laboral,Mixta,1,2,Laboral centro
+2026-03-04,B,Floresta,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-04,B,San Antonio,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-04,B,San Javier,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-04,B,Santa Lucía,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-04,B,Suramericana,Miércoles,Laboral,Mixta,1,2,Laboral centro
+2026-03-05,A,Acevedo,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-05,A,Aguacatala,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-05,A,Alpujarra,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-05,A,Ayurá,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-05,A,Bello,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-05,A,Caribe,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-05,A,Envigado,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-05,A,Exposiciones,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-05,A,Hospital,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-05,A,Industriales,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-05,A,Itagüí,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-05,A,La Estrella,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-05,A,Madera,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-05,A,Niquía,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-05,A,Parque Berrío,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-05,A,Poblado,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-05,A,Prado,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-05,A,Sabaneta,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-05,A,San Antonio,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-05,A,Tricentenario,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-05,A,Universidad,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-05,B,Cisneros,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-05,B,Estadio,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-05,B,Floresta,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-05,B,San Antonio,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-05,B,San Javier,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-05,B,Santa Lucía,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-05,B,Suramericana,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-06,A,Acevedo,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-06,A,Aguacatala,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-06,A,Alpujarra,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-06,A,Ayurá,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-06,A,Bello,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-06,A,Caribe,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-06,A,Envigado,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-06,A,Exposiciones,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-06,A,Hospital,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-06,A,Industriales,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-06,A,Itagüí,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-06,A,La Estrella,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-06,A,Madera,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-06,A,Niquía,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-06,A,Parque Berrío,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-06,A,Poblado,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-06,A,Prado,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-06,A,Sabaneta,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-06,A,San Antonio,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-06,A,Tricentenario,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-06,A,Universidad,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-06,B,Cisneros,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-06,B,Estadio,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-06,B,Floresta,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-06,B,San Antonio,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-06,B,San Javier,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-06,B,Santa Lucía,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-06,B,Suramericana,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-07,A,Acevedo,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-07,A,Aguacatala,Sábado,Sábado,Mixta,0,4,Sábado
+2026-03-07,A,Alpujarra,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-07,A,Ayurá,Sábado,Sábado,Mixta,0,4,Sábado
+2026-03-07,A,Bello,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-07,A,Caribe,Sábado,Sábado,Mixta,0,4,Sábado
+2026-03-07,A,Envigado,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-07,A,Exposiciones,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-07,A,Hospital,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-07,A,Industriales,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-07,A,Itagüí,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-07,A,La Estrella,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-07,A,Madera,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-07,A,Niquía,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-07,A,Parque Berrío,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-07,A,Poblado,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-07,A,Prado,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-07,A,Sabaneta,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-07,A,San Antonio,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-07,A,Tricentenario,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-07,A,Universidad,Sábado,Sábado,Mixta,0,4,Sábado
+2026-03-07,B,Cisneros,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-07,B,Estadio,Sábado,Sábado,Mixta,1,2,Laboral centro
+2026-03-07,B,Floresta,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-07,B,San Antonio,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-07,B,San Javier,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-07,B,Santa Lucía,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-07,B,Suramericana,Sábado,Sábado,Mixta,1,2,Laboral centro
+2026-03-08,A,Acevedo,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-08,A,Aguacatala,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-08,A,Alpujarra,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-08,A,Ayurá,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-08,A,Bello,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-08,A,Caribe,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-08,A,Envigado,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-08,A,Exposiciones,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-08,A,Hospital,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-08,A,Industriales,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-08,A,Itagüí,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-08,A,La Estrella,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-08,A,Madera,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-08,A,Niquía,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-08,A,Parque Berrío,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-08,A,Poblado,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-08,A,Prado,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-08,A,Sabaneta,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-08,A,San Antonio,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-08,A,Tricentenario,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-08,A,Universidad,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-08,B,Cisneros,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-08,B,Estadio,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-08,B,Floresta,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-08,B,San Antonio,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-08,B,San Javier,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-08,B,Santa Lucía,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-08,B,Suramericana,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-09,A,Acevedo,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-09,A,Aguacatala,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-09,A,Alpujarra,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-09,A,Ayurá,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-09,A,Bello,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-09,A,Caribe,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-09,A,Envigado,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-09,A,Exposiciones,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-09,A,Hospital,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-09,A,Industriales,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-09,A,Itagüí,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-09,A,La Estrella,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-09,A,Madera,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-09,A,Niquía,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-09,A,Parque Berrío,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-09,A,Poblado,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-09,A,Prado,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-09,A,Sabaneta,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-09,A,San Antonio,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-09,A,Tricentenario,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-09,A,Universidad,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-09,B,Cisneros,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-09,B,Estadio,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-09,B,Floresta,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-09,B,San Antonio,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-09,B,San Javier,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-09,B,Santa Lucía,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-09,B,Suramericana,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-10,A,Acevedo,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-10,A,Aguacatala,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-10,A,Alpujarra,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-10,A,Ayurá,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-10,A,Bello,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-10,A,Caribe,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-10,A,Envigado,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-10,A,Exposiciones,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-10,A,Hospital,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-10,A,Industriales,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-10,A,Itagüí,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-10,A,La Estrella,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-10,A,Madera,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-10,A,Niquía,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-10,A,Parque Berrío,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-10,A,Poblado,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-10,A,Prado,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-10,A,Sabaneta,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-10,A,San Antonio,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-10,A,Tricentenario,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-10,A,Universidad,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-10,B,Cisneros,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-10,B,Estadio,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-10,B,Floresta,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-10,B,San Antonio,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-10,B,San Javier,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-10,B,Santa Lucía,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-10,B,Suramericana,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-11,A,Acevedo,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-11,A,Aguacatala,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-03-11,A,Alpujarra,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-11,A,Ayurá,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-03-11,A,Bello,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-11,A,Caribe,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-03-11,A,Envigado,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-11,A,Exposiciones,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-11,A,Hospital,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-11,A,Industriales,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-11,A,Itagüí,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-11,A,La Estrella,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-11,A,Madera,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-11,A,Niquía,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-11,A,Parque Berrío,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-11,A,Poblado,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-11,A,Prado,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-11,A,Sabaneta,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-11,A,San Antonio,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-11,A,Tricentenario,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-11,A,Universidad,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-03-11,B,Cisneros,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-11,B,Estadio,Miércoles,Laboral,Mixta,1,2,Laboral centro
+2026-03-11,B,Floresta,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-11,B,San Antonio,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-11,B,San Javier,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-11,B,Santa Lucía,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-11,B,Suramericana,Miércoles,Laboral,Mixta,1,2,Laboral centro
+2026-03-12,A,Acevedo,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-12,A,Aguacatala,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-12,A,Alpujarra,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-12,A,Ayurá,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-12,A,Bello,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-12,A,Caribe,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-12,A,Envigado,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-12,A,Exposiciones,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-12,A,Hospital,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-12,A,Industriales,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-12,A,Itagüí,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-12,A,La Estrella,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-12,A,Madera,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-12,A,Niquía,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-12,A,Parque Berrío,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-12,A,Poblado,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-12,A,Prado,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-12,A,Sabaneta,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-12,A,San Antonio,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-12,A,Tricentenario,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-12,A,Universidad,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-12,B,Cisneros,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-12,B,Estadio,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-12,B,Floresta,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-12,B,San Antonio,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-12,B,San Javier,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-12,B,Santa Lucía,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-12,B,Suramericana,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-13,A,Acevedo,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-13,A,Aguacatala,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-13,A,Alpujarra,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-13,A,Ayurá,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-13,A,Bello,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-13,A,Caribe,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-13,A,Envigado,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-13,A,Exposiciones,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-13,A,Hospital,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-13,A,Industriales,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-13,A,Itagüí,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-13,A,La Estrella,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-13,A,Madera,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-13,A,Niquía,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-13,A,Parque Berrío,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-13,A,Poblado,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-13,A,Prado,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-13,A,Sabaneta,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-13,A,San Antonio,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-13,A,Tricentenario,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-13,A,Universidad,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-13,B,Cisneros,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-13,B,Estadio,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-13,B,Floresta,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-13,B,San Antonio,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-13,B,San Javier,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-13,B,Santa Lucía,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-13,B,Suramericana,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-14,A,Acevedo,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-14,A,Aguacatala,Sábado,Sábado,Mixta,0,4,Sábado
+2026-03-14,A,Alpujarra,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-14,A,Ayurá,Sábado,Sábado,Mixta,0,4,Sábado
+2026-03-14,A,Bello,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-14,A,Caribe,Sábado,Sábado,Mixta,0,4,Sábado
+2026-03-14,A,Envigado,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-14,A,Exposiciones,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-14,A,Hospital,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-14,A,Industriales,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-14,A,Itagüí,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-14,A,La Estrella,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-14,A,Madera,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-14,A,Niquía,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-14,A,Parque Berrío,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-14,A,Poblado,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-14,A,Prado,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-14,A,Sabaneta,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-14,A,San Antonio,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-14,A,Tricentenario,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-14,A,Universidad,Sábado,Sábado,Mixta,0,4,Sábado
+2026-03-14,B,Cisneros,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-14,B,Estadio,Sábado,Sábado,Mixta,0,4,Sábado
+2026-03-14,B,Floresta,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-14,B,San Antonio,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-14,B,San Javier,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-14,B,Santa Lucía,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-14,B,Suramericana,Sábado,Sábado,Mixta,0,4,Sábado
+2026-03-15,A,Acevedo,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-15,A,Aguacatala,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-15,A,Alpujarra,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-15,A,Ayurá,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-15,A,Bello,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-15,A,Caribe,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-15,A,Envigado,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-15,A,Exposiciones,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-15,A,Hospital,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-15,A,Industriales,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-15,A,Itagüí,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-15,A,La Estrella,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-15,A,Madera,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-15,A,Niquía,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-15,A,Parque Berrío,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-15,A,Poblado,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-15,A,Prado,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-15,A,Sabaneta,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-15,A,San Antonio,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-15,A,Tricentenario,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-15,A,Universidad,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-15,B,Cisneros,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-15,B,Estadio,Domingo,Domingo_Festivo,Mixta,1,2,Laboral centro
+2026-03-15,B,Floresta,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-15,B,San Antonio,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-15,B,San Javier,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-15,B,Santa Lucía,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-15,B,Suramericana,Domingo,Domingo_Festivo,Mixta,1,2,Laboral centro
+2026-03-16,A,Acevedo,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-16,A,Aguacatala,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-16,A,Alpujarra,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-16,A,Ayurá,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-16,A,Bello,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-16,A,Caribe,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-16,A,Envigado,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-16,A,Exposiciones,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-16,A,Hospital,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-16,A,Industriales,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-16,A,Itagüí,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-16,A,La Estrella,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-16,A,Madera,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-16,A,Niquía,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-16,A,Parque Berrío,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-16,A,Poblado,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-16,A,Prado,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-16,A,Sabaneta,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-16,A,San Antonio,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-16,A,Tricentenario,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-16,A,Universidad,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-16,B,Cisneros,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-16,B,Estadio,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-16,B,Floresta,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-16,B,San Antonio,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-16,B,San Javier,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-16,B,Santa Lucía,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-16,B,Suramericana,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-17,A,Acevedo,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-17,A,Aguacatala,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-17,A,Alpujarra,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-17,A,Ayurá,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-17,A,Bello,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-17,A,Caribe,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-17,A,Envigado,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-17,A,Exposiciones,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-17,A,Hospital,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-17,A,Industriales,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-17,A,Itagüí,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-17,A,La Estrella,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-17,A,Madera,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-17,A,Niquía,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-17,A,Parque Berrío,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-17,A,Poblado,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-17,A,Prado,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-17,A,Sabaneta,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-17,A,San Antonio,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-17,A,Tricentenario,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-17,A,Universidad,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-17,B,Cisneros,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-17,B,Estadio,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-17,B,Floresta,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-17,B,San Antonio,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-17,B,San Javier,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-17,B,Santa Lucía,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-17,B,Suramericana,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-18,A,Acevedo,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-18,A,Aguacatala,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-03-18,A,Alpujarra,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-18,A,Ayurá,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-03-18,A,Bello,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-18,A,Caribe,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-03-18,A,Envigado,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-18,A,Exposiciones,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-18,A,Hospital,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-18,A,Industriales,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-18,A,Itagüí,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-18,A,La Estrella,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-18,A,Madera,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-18,A,Niquía,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-18,A,Parque Berrío,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-18,A,Poblado,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-18,A,Prado,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-18,A,Sabaneta,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-18,A,San Antonio,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-18,A,Tricentenario,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-18,A,Universidad,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-03-18,B,Cisneros,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-18,B,Estadio,Miércoles,Laboral,Mixta,1,2,Laboral centro
+2026-03-18,B,Floresta,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-18,B,San Antonio,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-18,B,San Javier,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-18,B,Santa Lucía,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-18,B,Suramericana,Miércoles,Laboral,Mixta,1,2,Laboral centro
+2026-03-19,A,Acevedo,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-19,A,Aguacatala,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-19,A,Alpujarra,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-19,A,Ayurá,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-19,A,Bello,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-19,A,Caribe,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-19,A,Envigado,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-19,A,Exposiciones,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-19,A,Hospital,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-19,A,Industriales,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-19,A,Itagüí,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-19,A,La Estrella,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-19,A,Madera,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-19,A,Niquía,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-19,A,Parque Berrío,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-19,A,Poblado,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-19,A,Prado,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-19,A,Sabaneta,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-19,A,San Antonio,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-19,A,Tricentenario,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-19,A,Universidad,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-19,B,Cisneros,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-19,B,Estadio,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-19,B,Floresta,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-19,B,San Antonio,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-19,B,San Javier,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-19,B,Santa Lucía,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-19,B,Suramericana,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-20,A,Acevedo,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-20,A,Aguacatala,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-20,A,Alpujarra,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-20,A,Ayurá,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-20,A,Bello,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-20,A,Caribe,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-20,A,Envigado,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-20,A,Exposiciones,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-20,A,Hospital,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-20,A,Industriales,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-20,A,Itagüí,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-20,A,La Estrella,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-20,A,Madera,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-20,A,Niquía,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-20,A,Parque Berrío,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-20,A,Poblado,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-20,A,Prado,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-20,A,Sabaneta,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-20,A,San Antonio,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-20,A,Tricentenario,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-20,A,Universidad,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-20,B,Cisneros,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-20,B,Estadio,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-20,B,Floresta,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-20,B,San Antonio,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-20,B,San Javier,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-20,B,Santa Lucía,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-20,B,Suramericana,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-21,A,Acevedo,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-21,A,Aguacatala,Sábado,Sábado,Mixta,0,4,Sábado
+2026-03-21,A,Alpujarra,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-21,A,Ayurá,Sábado,Sábado,Mixta,0,4,Sábado
+2026-03-21,A,Bello,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-21,A,Caribe,Sábado,Sábado,Mixta,0,4,Sábado
+2026-03-21,A,Envigado,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-21,A,Exposiciones,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-21,A,Hospital,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-21,A,Industriales,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-21,A,Itagüí,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-21,A,La Estrella,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-21,A,Madera,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-21,A,Niquía,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-21,A,Parque Berrío,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-21,A,Poblado,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-21,A,Prado,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-21,A,Sabaneta,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-21,A,San Antonio,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-21,A,Tricentenario,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-21,A,Universidad,Sábado,Sábado,Mixta,0,4,Sábado
+2026-03-21,B,Cisneros,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-21,B,Estadio,Sábado,Sábado,Mixta,1,2,Laboral centro
+2026-03-21,B,Floresta,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-21,B,San Antonio,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-21,B,San Javier,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-21,B,Santa Lucía,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-21,B,Suramericana,Sábado,Sábado,Mixta,1,2,Laboral centro
+2026-03-22,A,Acevedo,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-22,A,Aguacatala,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-22,A,Alpujarra,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-22,A,Ayurá,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-22,A,Bello,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-22,A,Caribe,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-22,A,Envigado,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-22,A,Exposiciones,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-22,A,Hospital,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-22,A,Industriales,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-22,A,Itagüí,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-22,A,La Estrella,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-22,A,Madera,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-22,A,Niquía,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-22,A,Parque Berrío,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-22,A,Poblado,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-22,A,Prado,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-22,A,Sabaneta,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-22,A,San Antonio,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-22,A,Tricentenario,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-22,A,Universidad,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-22,B,Cisneros,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-22,B,Estadio,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-22,B,Floresta,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-22,B,San Antonio,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-22,B,San Javier,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-22,B,Santa Lucía,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-22,B,Suramericana,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-23,A,Acevedo,Lunes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-23,A,Aguacatala,Lunes,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-23,A,Alpujarra,Lunes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-23,A,Ayurá,Lunes,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-23,A,Bello,Lunes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-23,A,Caribe,Lunes,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-23,A,Envigado,Lunes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-23,A,Exposiciones,Lunes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-23,A,Hospital,Lunes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-23,A,Industriales,Lunes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-23,A,Itagüí,Lunes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-23,A,La Estrella,Lunes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-23,A,Madera,Lunes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-23,A,Niquía,Lunes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-23,A,Parque Berrío,Lunes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-23,A,Poblado,Lunes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-23,A,Prado,Lunes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-23,A,Sabaneta,Lunes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-23,A,San Antonio,Lunes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-23,A,Tricentenario,Lunes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-23,A,Universidad,Lunes,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-23,B,Cisneros,Lunes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-23,B,Estadio,Lunes,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-23,B,Floresta,Lunes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-23,B,San Antonio,Lunes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-23,B,San Javier,Lunes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-23,B,Santa Lucía,Lunes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-23,B,Suramericana,Lunes,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-24,A,Acevedo,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-24,A,Aguacatala,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-24,A,Alpujarra,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-24,A,Ayurá,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-24,A,Bello,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-24,A,Caribe,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-24,A,Envigado,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-24,A,Exposiciones,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-24,A,Hospital,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-24,A,Industriales,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-24,A,Itagüí,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-24,A,La Estrella,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-24,A,Madera,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-24,A,Niquía,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-24,A,Parque Berrío,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-24,A,Poblado,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-24,A,Prado,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-24,A,Sabaneta,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-24,A,San Antonio,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-24,A,Tricentenario,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-24,A,Universidad,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-24,B,Cisneros,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-24,B,Estadio,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-24,B,Floresta,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-24,B,San Antonio,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-24,B,San Javier,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-24,B,Santa Lucía,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-24,B,Suramericana,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-25,A,Acevedo,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-25,A,Aguacatala,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-03-25,A,Alpujarra,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-25,A,Ayurá,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-03-25,A,Bello,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-25,A,Caribe,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-03-25,A,Envigado,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-25,A,Exposiciones,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-25,A,Hospital,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-25,A,Industriales,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-25,A,Itagüí,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-25,A,La Estrella,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-25,A,Madera,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-25,A,Niquía,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-25,A,Parque Berrío,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-25,A,Poblado,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-25,A,Prado,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-25,A,Sabaneta,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-25,A,San Antonio,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-25,A,Tricentenario,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-25,A,Universidad,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-03-25,B,Cisneros,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-25,B,Estadio,Miércoles,Laboral,Mixta,1,2,Laboral centro
+2026-03-25,B,Floresta,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-25,B,San Antonio,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-25,B,San Javier,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-25,B,Santa Lucía,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-03-25,B,Suramericana,Miércoles,Laboral,Mixta,1,2,Laboral centro
+2026-03-26,A,Acevedo,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-26,A,Aguacatala,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-26,A,Alpujarra,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-26,A,Ayurá,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-26,A,Bello,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-26,A,Caribe,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-26,A,Envigado,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-26,A,Exposiciones,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-26,A,Hospital,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-26,A,Industriales,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-26,A,Itagüí,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-26,A,La Estrella,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-26,A,Madera,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-26,A,Niquía,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-26,A,Parque Berrío,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-26,A,Poblado,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-26,A,Prado,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-26,A,Sabaneta,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-26,A,San Antonio,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-26,A,Tricentenario,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-26,A,Universidad,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-26,B,Cisneros,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-26,B,Estadio,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-26,B,Floresta,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-26,B,San Antonio,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-26,B,San Javier,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-26,B,Santa Lucía,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-03-26,B,Suramericana,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-03-27,A,Acevedo,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-27,A,Aguacatala,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-27,A,Alpujarra,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-27,A,Ayurá,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-27,A,Bello,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-27,A,Caribe,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-27,A,Envigado,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-27,A,Exposiciones,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-27,A,Hospital,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-27,A,Industriales,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-27,A,Itagüí,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-27,A,La Estrella,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-27,A,Madera,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-27,A,Niquía,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-27,A,Parque Berrío,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-27,A,Poblado,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-27,A,Prado,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-27,A,Sabaneta,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-27,A,San Antonio,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-27,A,Tricentenario,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-27,A,Universidad,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-27,B,Cisneros,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-27,B,Estadio,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-27,B,Floresta,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-27,B,San Antonio,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-27,B,San Javier,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-27,B,Santa Lucía,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-27,B,Suramericana,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-28,A,Acevedo,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-28,A,Aguacatala,Sábado,Sábado,Mixta,0,4,Sábado
+2026-03-28,A,Alpujarra,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-28,A,Ayurá,Sábado,Sábado,Mixta,0,4,Sábado
+2026-03-28,A,Bello,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-28,A,Caribe,Sábado,Sábado,Mixta,0,4,Sábado
+2026-03-28,A,Envigado,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-28,A,Exposiciones,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-28,A,Hospital,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-28,A,Industriales,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-28,A,Itagüí,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-28,A,La Estrella,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-28,A,Madera,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-28,A,Niquía,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-28,A,Parque Berrío,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-28,A,Poblado,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-28,A,Prado,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-28,A,Sabaneta,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-28,A,San Antonio,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-28,A,Tricentenario,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-28,A,Universidad,Sábado,Sábado,Mixta,0,4,Sábado
+2026-03-28,B,Cisneros,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-28,B,Estadio,Sábado,Sábado,Mixta,1,2,Laboral centro
+2026-03-28,B,Floresta,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-28,B,San Antonio,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-03-28,B,San Javier,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-28,B,Santa Lucía,Sábado,Sábado,Residencial,0,4,Sábado
+2026-03-28,B,Suramericana,Sábado,Sábado,Mixta,1,2,Laboral centro
+2026-03-29,A,Acevedo,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-29,A,Aguacatala,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-29,A,Alpujarra,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-29,A,Ayurá,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-29,A,Bello,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-29,A,Caribe,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-29,A,Envigado,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-29,A,Exposiciones,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-29,A,Hospital,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-29,A,Industriales,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-29,A,Itagüí,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-29,A,La Estrella,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-29,A,Madera,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-29,A,Niquía,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-29,A,Parque Berrío,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-29,A,Poblado,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-29,A,Prado,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-29,A,Sabaneta,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-29,A,San Antonio,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-29,A,Tricentenario,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-29,A,Universidad,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-29,B,Cisneros,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-29,B,Estadio,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-29,B,Floresta,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-29,B,San Antonio,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-03-29,B,San Javier,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-29,B,Santa Lucía,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-03-29,B,Suramericana,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-03-30,A,Acevedo,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-30,A,Aguacatala,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-30,A,Alpujarra,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-30,A,Ayurá,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-30,A,Bello,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-30,A,Caribe,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-30,A,Envigado,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-30,A,Exposiciones,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-30,A,Hospital,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-30,A,Industriales,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-30,A,Itagüí,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-30,A,La Estrella,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-30,A,Madera,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-30,A,Niquía,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-30,A,Parque Berrío,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-30,A,Poblado,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-30,A,Prado,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-30,A,Sabaneta,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-30,A,San Antonio,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-30,A,Tricentenario,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-30,A,Universidad,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-30,B,Cisneros,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-30,B,Estadio,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-30,B,Floresta,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-30,B,San Antonio,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-30,B,San Javier,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-30,B,Santa Lucía,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-30,B,Suramericana,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-31,A,Acevedo,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-31,A,Aguacatala,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-31,A,Alpujarra,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-31,A,Ayurá,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-31,A,Bello,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-31,A,Caribe,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-31,A,Envigado,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-31,A,Exposiciones,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-31,A,Hospital,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-31,A,Industriales,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-31,A,Itagüí,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-31,A,La Estrella,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-31,A,Madera,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-31,A,Niquía,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-31,A,Parque Berrío,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-31,A,Poblado,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-31,A,Prado,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-31,A,Sabaneta,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-31,A,San Antonio,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-31,A,Tricentenario,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-31,A,Universidad,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-31,B,Cisneros,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-31,B,Estadio,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-03-31,B,Floresta,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-31,B,San Antonio,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-03-31,B,San Javier,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-31,B,Santa Lucía,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-03-31,B,Suramericana,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-01,A,Acevedo,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-01,A,Aguacatala,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-04-01,A,Alpujarra,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-01,A,Ayurá,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-04-01,A,Bello,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-01,A,Caribe,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-04-01,A,Envigado,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-01,A,Exposiciones,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-01,A,Hospital,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-01,A,Industriales,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-01,A,Itagüí,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-01,A,La Estrella,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-01,A,Madera,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-01,A,Niquía,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-01,A,Parque Berrío,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-01,A,Poblado,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-01,A,Prado,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-01,A,Sabaneta,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-01,A,San Antonio,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-01,A,Tricentenario,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-01,A,Universidad,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-04-01,B,Cisneros,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-01,B,Estadio,Miércoles,Laboral,Mixta,1,2,Laboral centro
+2026-04-01,B,Floresta,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-01,B,San Antonio,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-01,B,San Javier,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-01,B,Santa Lucía,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-01,B,Suramericana,Miércoles,Laboral,Mixta,1,2,Laboral centro
+2026-04-02,A,Acevedo,Jueves,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-02,A,Aguacatala,Jueves,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-02,A,Alpujarra,Jueves,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-02,A,Ayurá,Jueves,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-02,A,Bello,Jueves,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-02,A,Caribe,Jueves,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-02,A,Envigado,Jueves,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-02,A,Exposiciones,Jueves,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-02,A,Hospital,Jueves,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-02,A,Industriales,Jueves,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-02,A,Itagüí,Jueves,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-02,A,La Estrella,Jueves,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-02,A,Madera,Jueves,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-02,A,Niquía,Jueves,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-02,A,Parque Berrío,Jueves,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-02,A,Poblado,Jueves,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-02,A,Prado,Jueves,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-02,A,Sabaneta,Jueves,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-02,A,San Antonio,Jueves,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-02,A,Tricentenario,Jueves,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-02,A,Universidad,Jueves,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-02,B,Cisneros,Jueves,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-02,B,Estadio,Jueves,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-02,B,Floresta,Jueves,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-02,B,San Antonio,Jueves,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-02,B,San Javier,Jueves,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-02,B,Santa Lucía,Jueves,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-02,B,Suramericana,Jueves,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-03,A,Acevedo,Viernes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-03,A,Aguacatala,Viernes,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-03,A,Alpujarra,Viernes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-03,A,Ayurá,Viernes,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-03,A,Bello,Viernes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-03,A,Caribe,Viernes,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-03,A,Envigado,Viernes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-03,A,Exposiciones,Viernes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-03,A,Hospital,Viernes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-03,A,Industriales,Viernes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-03,A,Itagüí,Viernes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-03,A,La Estrella,Viernes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-03,A,Madera,Viernes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-03,A,Niquía,Viernes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-03,A,Parque Berrío,Viernes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-03,A,Poblado,Viernes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-03,A,Prado,Viernes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-03,A,Sabaneta,Viernes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-03,A,San Antonio,Viernes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-03,A,Tricentenario,Viernes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-03,A,Universidad,Viernes,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-03,B,Cisneros,Viernes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-03,B,Estadio,Viernes,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-03,B,Floresta,Viernes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-03,B,San Antonio,Viernes,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-03,B,San Javier,Viernes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-03,B,Santa Lucía,Viernes,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-03,B,Suramericana,Viernes,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-04,A,Acevedo,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-04,A,Aguacatala,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-04,A,Alpujarra,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-04,A,Ayurá,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-04,A,Bello,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-04,A,Caribe,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-04,A,Envigado,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-04,A,Exposiciones,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-04,A,Hospital,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-04,A,Industriales,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-04,A,Itagüí,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-04,A,La Estrella,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-04,A,Madera,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-04,A,Niquía,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-04,A,Parque Berrío,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-04,A,Poblado,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-04,A,Prado,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-04,A,Sabaneta,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-04,A,San Antonio,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-04,A,Tricentenario,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-04,A,Universidad,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-04,B,Cisneros,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-04,B,Estadio,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-04,B,Floresta,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-04,B,San Antonio,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-04,B,San Javier,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-04,B,Santa Lucía,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-04,B,Suramericana,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-05,A,Acevedo,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-05,A,Aguacatala,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-05,A,Alpujarra,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-05,A,Ayurá,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-05,A,Bello,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-05,A,Caribe,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-05,A,Envigado,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-05,A,Exposiciones,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-05,A,Hospital,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-05,A,Industriales,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-05,A,Itagüí,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-05,A,La Estrella,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-05,A,Madera,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-05,A,Niquía,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-05,A,Parque Berrío,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-05,A,Poblado,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-05,A,Prado,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-05,A,Sabaneta,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-05,A,San Antonio,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-05,A,Tricentenario,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-05,A,Universidad,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-05,B,Cisneros,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-05,B,Estadio,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-05,B,Floresta,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-05,B,San Antonio,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-05,B,San Javier,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-05,B,Santa Lucía,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-05,B,Suramericana,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-06,A,Acevedo,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-06,A,Aguacatala,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-06,A,Alpujarra,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-06,A,Ayurá,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-06,A,Bello,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-06,A,Caribe,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-06,A,Envigado,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-06,A,Exposiciones,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-06,A,Hospital,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-06,A,Industriales,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-06,A,Itagüí,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-06,A,La Estrella,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-06,A,Madera,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-06,A,Niquía,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-06,A,Parque Berrío,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-06,A,Poblado,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-06,A,Prado,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-06,A,Sabaneta,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-06,A,San Antonio,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-06,A,Tricentenario,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-06,A,Universidad,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-06,B,Cisneros,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-06,B,Estadio,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-06,B,Floresta,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-06,B,San Antonio,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-06,B,San Javier,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-06,B,Santa Lucía,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-06,B,Suramericana,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-07,A,Acevedo,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-07,A,Aguacatala,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-07,A,Alpujarra,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-07,A,Ayurá,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-07,A,Bello,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-07,A,Caribe,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-07,A,Envigado,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-07,A,Exposiciones,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-07,A,Hospital,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-07,A,Industriales,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-07,A,Itagüí,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-07,A,La Estrella,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-07,A,Madera,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-07,A,Niquía,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-07,A,Parque Berrío,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-07,A,Poblado,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-07,A,Prado,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-07,A,Sabaneta,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-07,A,San Antonio,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-07,A,Tricentenario,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-07,A,Universidad,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-07,B,Cisneros,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-07,B,Estadio,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-07,B,Floresta,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-07,B,San Antonio,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-07,B,San Javier,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-07,B,Santa Lucía,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-07,B,Suramericana,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-08,A,Acevedo,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-08,A,Aguacatala,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-04-08,A,Alpujarra,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-08,A,Ayurá,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-04-08,A,Bello,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-08,A,Caribe,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-04-08,A,Envigado,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-08,A,Exposiciones,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-08,A,Hospital,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-08,A,Industriales,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-08,A,Itagüí,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-08,A,La Estrella,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-08,A,Madera,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-08,A,Niquía,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-08,A,Parque Berrío,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-08,A,Poblado,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-08,A,Prado,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-08,A,Sabaneta,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-08,A,San Antonio,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-08,A,Tricentenario,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-08,A,Universidad,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-04-08,B,Cisneros,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-08,B,Estadio,Miércoles,Laboral,Mixta,1,2,Laboral centro
+2026-04-08,B,Floresta,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-08,B,San Antonio,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-08,B,San Javier,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-08,B,Santa Lucía,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-08,B,Suramericana,Miércoles,Laboral,Mixta,1,2,Laboral centro
+2026-04-09,A,Acevedo,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-09,A,Aguacatala,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-04-09,A,Alpujarra,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-09,A,Ayurá,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-04-09,A,Bello,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-09,A,Caribe,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-04-09,A,Envigado,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-09,A,Exposiciones,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-09,A,Hospital,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-09,A,Industriales,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-09,A,Itagüí,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-09,A,La Estrella,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-09,A,Madera,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-09,A,Niquía,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-09,A,Parque Berrío,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-09,A,Poblado,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-09,A,Prado,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-09,A,Sabaneta,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-09,A,San Antonio,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-09,A,Tricentenario,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-09,A,Universidad,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-04-09,B,Cisneros,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-09,B,Estadio,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-04-09,B,Floresta,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-09,B,San Antonio,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-09,B,San Javier,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-09,B,Santa Lucía,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-09,B,Suramericana,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-04-10,A,Acevedo,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-10,A,Aguacatala,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-10,A,Alpujarra,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-10,A,Ayurá,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-10,A,Bello,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-10,A,Caribe,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-10,A,Envigado,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-10,A,Exposiciones,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-10,A,Hospital,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-10,A,Industriales,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-10,A,Itagüí,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-10,A,La Estrella,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-10,A,Madera,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-10,A,Niquía,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-10,A,Parque Berrío,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-10,A,Poblado,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-10,A,Prado,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-10,A,Sabaneta,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-10,A,San Antonio,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-10,A,Tricentenario,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-10,A,Universidad,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-10,B,Cisneros,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-10,B,Estadio,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-10,B,Floresta,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-10,B,San Antonio,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-10,B,San Javier,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-10,B,Santa Lucía,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-10,B,Suramericana,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-11,A,Acevedo,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-11,A,Aguacatala,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-11,A,Alpujarra,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-11,A,Ayurá,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-11,A,Bello,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-11,A,Caribe,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-11,A,Envigado,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-11,A,Exposiciones,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-11,A,Hospital,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-11,A,Industriales,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-11,A,Itagüí,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-11,A,La Estrella,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-11,A,Madera,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-11,A,Niquía,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-11,A,Parque Berrío,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-11,A,Poblado,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-11,A,Prado,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-11,A,Sabaneta,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-11,A,San Antonio,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-11,A,Tricentenario,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-11,A,Universidad,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-11,B,Cisneros,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-11,B,Estadio,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-11,B,Floresta,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-11,B,San Antonio,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-11,B,San Javier,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-11,B,Santa Lucía,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-11,B,Suramericana,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-12,A,Acevedo,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-12,A,Aguacatala,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-12,A,Alpujarra,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-12,A,Ayurá,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-12,A,Bello,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-12,A,Caribe,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-12,A,Envigado,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-12,A,Exposiciones,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-12,A,Hospital,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-12,A,Industriales,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-12,A,Itagüí,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-12,A,La Estrella,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-12,A,Madera,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-12,A,Niquía,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-12,A,Parque Berrío,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-12,A,Poblado,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-12,A,Prado,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-12,A,Sabaneta,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-12,A,San Antonio,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-12,A,Tricentenario,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-12,A,Universidad,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-12,B,Cisneros,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-12,B,Estadio,Domingo,Domingo_Festivo,Mixta,1,2,Laboral centro
+2026-04-12,B,Floresta,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-12,B,San Antonio,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-12,B,San Javier,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-12,B,Santa Lucía,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-12,B,Suramericana,Domingo,Domingo_Festivo,Mixta,1,2,Laboral centro
+2026-04-13,A,Acevedo,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-13,A,Aguacatala,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-13,A,Alpujarra,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-13,A,Ayurá,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-13,A,Bello,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-13,A,Caribe,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-13,A,Envigado,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-13,A,Exposiciones,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-13,A,Hospital,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-13,A,Industriales,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-13,A,Itagüí,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-13,A,La Estrella,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-13,A,Madera,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-13,A,Niquía,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-13,A,Parque Berrío,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-13,A,Poblado,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-13,A,Prado,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-13,A,Sabaneta,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-13,A,San Antonio,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-13,A,Tricentenario,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-13,A,Universidad,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-13,B,Cisneros,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-13,B,Estadio,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-13,B,Floresta,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-13,B,San Antonio,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-13,B,San Javier,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-13,B,Santa Lucía,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-13,B,Suramericana,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-14,A,Acevedo,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-14,A,Aguacatala,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-14,A,Alpujarra,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-14,A,Ayurá,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-14,A,Bello,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-14,A,Caribe,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-14,A,Envigado,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-14,A,Exposiciones,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-14,A,Hospital,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-14,A,Industriales,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-14,A,Itagüí,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-14,A,La Estrella,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-14,A,Madera,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-14,A,Niquía,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-14,A,Parque Berrío,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-14,A,Poblado,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-14,A,Prado,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-14,A,Sabaneta,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-14,A,San Antonio,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-14,A,Tricentenario,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-14,A,Universidad,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-14,B,Cisneros,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-14,B,Estadio,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-14,B,Floresta,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-14,B,San Antonio,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-14,B,San Javier,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-14,B,Santa Lucía,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-14,B,Suramericana,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-15,A,Acevedo,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-15,A,Aguacatala,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-04-15,A,Alpujarra,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-15,A,Ayurá,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-04-15,A,Bello,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-15,A,Caribe,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-04-15,A,Envigado,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-15,A,Exposiciones,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-15,A,Hospital,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-15,A,Industriales,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-15,A,Itagüí,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-15,A,La Estrella,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-15,A,Madera,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-15,A,Niquía,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-15,A,Parque Berrío,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-15,A,Poblado,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-15,A,Prado,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-15,A,Sabaneta,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-15,A,San Antonio,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-15,A,Tricentenario,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-15,A,Universidad,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-04-15,B,Cisneros,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-15,B,Estadio,Miércoles,Laboral,Mixta,1,2,Laboral centro
+2026-04-15,B,Floresta,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-15,B,San Antonio,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-15,B,San Javier,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-15,B,Santa Lucía,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-15,B,Suramericana,Miércoles,Laboral,Mixta,1,2,Laboral centro
+2026-04-16,A,Acevedo,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-16,A,Aguacatala,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-04-16,A,Alpujarra,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-16,A,Ayurá,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-04-16,A,Bello,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-16,A,Caribe,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-04-16,A,Envigado,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-16,A,Exposiciones,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-16,A,Hospital,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-16,A,Industriales,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-16,A,Itagüí,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-16,A,La Estrella,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-16,A,Madera,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-16,A,Niquía,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-16,A,Parque Berrío,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-16,A,Poblado,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-16,A,Prado,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-16,A,Sabaneta,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-16,A,San Antonio,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-16,A,Tricentenario,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-16,A,Universidad,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-04-16,B,Cisneros,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-16,B,Estadio,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-04-16,B,Floresta,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-16,B,San Antonio,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-16,B,San Javier,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-16,B,Santa Lucía,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-16,B,Suramericana,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-04-17,A,Acevedo,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-17,A,Aguacatala,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-17,A,Alpujarra,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-17,A,Ayurá,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-17,A,Bello,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-17,A,Caribe,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-17,A,Envigado,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-17,A,Exposiciones,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-17,A,Hospital,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-17,A,Industriales,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-17,A,Itagüí,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-17,A,La Estrella,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-17,A,Madera,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-17,A,Niquía,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-17,A,Parque Berrío,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-17,A,Poblado,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-17,A,Prado,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-17,A,Sabaneta,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-17,A,San Antonio,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-17,A,Tricentenario,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-17,A,Universidad,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-17,B,Cisneros,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-17,B,Estadio,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-17,B,Floresta,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-17,B,San Antonio,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-17,B,San Javier,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-17,B,Santa Lucía,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-17,B,Suramericana,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-18,A,Acevedo,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-18,A,Aguacatala,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-18,A,Alpujarra,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-18,A,Ayurá,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-18,A,Bello,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-18,A,Caribe,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-18,A,Envigado,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-18,A,Exposiciones,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-18,A,Hospital,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-18,A,Industriales,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-18,A,Itagüí,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-18,A,La Estrella,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-18,A,Madera,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-18,A,Niquía,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-18,A,Parque Berrío,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-18,A,Poblado,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-18,A,Prado,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-18,A,Sabaneta,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-18,A,San Antonio,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-18,A,Tricentenario,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-18,A,Universidad,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-18,B,Cisneros,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-18,B,Estadio,Sábado,Sábado,Mixta,1,2,Laboral centro
+2026-04-18,B,Floresta,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-18,B,San Antonio,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-18,B,San Javier,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-18,B,Santa Lucía,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-18,B,Suramericana,Sábado,Sábado,Mixta,1,2,Laboral centro
+2026-04-19,A,Acevedo,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-19,A,Aguacatala,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-19,A,Alpujarra,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-19,A,Ayurá,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-19,A,Bello,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-19,A,Caribe,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-19,A,Envigado,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-19,A,Exposiciones,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-19,A,Hospital,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-19,A,Industriales,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-19,A,Itagüí,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-19,A,La Estrella,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-19,A,Madera,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-19,A,Niquía,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-19,A,Parque Berrío,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-19,A,Poblado,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-19,A,Prado,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-19,A,Sabaneta,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-19,A,San Antonio,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-19,A,Tricentenario,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-19,A,Universidad,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-19,B,Cisneros,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-19,B,Estadio,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-19,B,Floresta,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-19,B,San Antonio,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-19,B,San Javier,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-19,B,Santa Lucía,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-19,B,Suramericana,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-20,A,Acevedo,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-20,A,Aguacatala,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-20,A,Alpujarra,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-20,A,Ayurá,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-20,A,Bello,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-20,A,Caribe,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-20,A,Envigado,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-20,A,Exposiciones,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-20,A,Hospital,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-20,A,Industriales,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-20,A,Itagüí,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-20,A,La Estrella,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-20,A,Madera,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-20,A,Niquía,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-20,A,Parque Berrío,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-20,A,Poblado,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-20,A,Prado,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-20,A,Sabaneta,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-20,A,San Antonio,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-20,A,Tricentenario,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-20,A,Universidad,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-20,B,Cisneros,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-20,B,Estadio,Lunes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-20,B,Floresta,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-20,B,San Antonio,Lunes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-20,B,San Javier,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-20,B,Santa Lucía,Lunes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-20,B,Suramericana,Lunes,Laboral,Mixta,0,2,Laboral centro
+2026-04-21,A,Acevedo,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-21,A,Aguacatala,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-21,A,Alpujarra,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-21,A,Ayurá,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-21,A,Bello,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-21,A,Caribe,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-21,A,Envigado,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-21,A,Exposiciones,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-21,A,Hospital,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-21,A,Industriales,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-21,A,Itagüí,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-21,A,La Estrella,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-21,A,Madera,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-21,A,Niquía,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-21,A,Parque Berrío,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-21,A,Poblado,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-21,A,Prado,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-21,A,Sabaneta,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-21,A,San Antonio,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-21,A,Tricentenario,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-21,A,Universidad,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-21,B,Cisneros,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-21,B,Estadio,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-21,B,Floresta,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-21,B,San Antonio,Martes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-21,B,San Javier,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-21,B,Santa Lucía,Martes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-21,B,Suramericana,Martes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-22,A,Acevedo,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-22,A,Aguacatala,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-04-22,A,Alpujarra,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-22,A,Ayurá,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-04-22,A,Bello,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-22,A,Caribe,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-04-22,A,Envigado,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-22,A,Exposiciones,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-22,A,Hospital,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-22,A,Industriales,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-22,A,Itagüí,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-22,A,La Estrella,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-22,A,Madera,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-22,A,Niquía,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-22,A,Parque Berrío,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-22,A,Poblado,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-22,A,Prado,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-22,A,Sabaneta,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-22,A,San Antonio,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-22,A,Tricentenario,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-22,A,Universidad,Miércoles,Laboral,Mixta,0,3,Laboral mixta
+2026-04-22,B,Cisneros,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-22,B,Estadio,Miércoles,Laboral,Mixta,1,2,Laboral centro
+2026-04-22,B,Floresta,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-22,B,San Antonio,Miércoles,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-22,B,San Javier,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-22,B,Santa Lucía,Miércoles,Laboral,Residencial,0,1,Laboral residencial
+2026-04-22,B,Suramericana,Miércoles,Laboral,Mixta,1,2,Laboral centro
+2026-04-23,A,Acevedo,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-23,A,Aguacatala,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-04-23,A,Alpujarra,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-23,A,Ayurá,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-04-23,A,Bello,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-23,A,Caribe,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-04-23,A,Envigado,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-23,A,Exposiciones,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-23,A,Hospital,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-23,A,Industriales,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-23,A,Itagüí,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-23,A,La Estrella,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-23,A,Madera,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-23,A,Niquía,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-23,A,Parque Berrío,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-23,A,Poblado,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-23,A,Prado,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-23,A,Sabaneta,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-23,A,San Antonio,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-23,A,Tricentenario,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-23,A,Universidad,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-04-23,B,Cisneros,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-23,B,Estadio,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-04-23,B,Floresta,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-23,B,San Antonio,Jueves,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-23,B,San Javier,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-23,B,Santa Lucía,Jueves,Laboral,Residencial,0,1,Laboral residencial
+2026-04-23,B,Suramericana,Jueves,Laboral,Mixta,0,3,Laboral mixta
+2026-04-24,A,Acevedo,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-24,A,Aguacatala,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-24,A,Alpujarra,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-24,A,Ayurá,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-24,A,Bello,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-24,A,Caribe,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-24,A,Envigado,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-24,A,Exposiciones,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-24,A,Hospital,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-24,A,Industriales,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-24,A,Itagüí,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-24,A,La Estrella,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-24,A,Madera,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-24,A,Niquía,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-24,A,Parque Berrío,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-24,A,Poblado,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-24,A,Prado,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-24,A,Sabaneta,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-24,A,San Antonio,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-24,A,Tricentenario,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-24,A,Universidad,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-24,B,Cisneros,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-24,B,Estadio,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-24,B,Floresta,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-24,B,San Antonio,Viernes,Laboral,Centro_Empleo,0,2,Laboral centro
+2026-04-24,B,San Javier,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-24,B,Santa Lucía,Viernes,Laboral,Residencial,0,1,Laboral residencial
+2026-04-24,B,Suramericana,Viernes,Laboral,Mixta,0,3,Laboral mixta
+2026-04-25,A,Acevedo,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-25,A,Aguacatala,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-25,A,Alpujarra,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-25,A,Ayurá,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-25,A,Bello,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-25,A,Caribe,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-25,A,Envigado,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-25,A,Exposiciones,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-25,A,Hospital,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-25,A,Industriales,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-25,A,Itagüí,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-25,A,La Estrella,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-25,A,Madera,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-25,A,Niquía,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-25,A,Parque Berrío,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-25,A,Poblado,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-25,A,Prado,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-25,A,Sabaneta,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-25,A,San Antonio,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-25,A,Tricentenario,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-25,A,Universidad,Sábado,Sábado,Mixta,0,4,Sábado
+2026-04-25,B,Cisneros,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-25,B,Estadio,Sábado,Sábado,Mixta,1,2,Laboral centro
+2026-04-25,B,Floresta,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-25,B,San Antonio,Sábado,Sábado,Centro_Empleo,0,4,Sábado
+2026-04-25,B,San Javier,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-25,B,Santa Lucía,Sábado,Sábado,Residencial,0,4,Sábado
+2026-04-25,B,Suramericana,Sábado,Sábado,Mixta,1,2,Laboral centro
+2026-04-26,A,Acevedo,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-26,A,Aguacatala,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-26,A,Alpujarra,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-26,A,Ayurá,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-26,A,Bello,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-26,A,Caribe,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-26,A,Envigado,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-26,A,Exposiciones,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-26,A,Hospital,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-26,A,Industriales,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-26,A,Itagüí,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-26,A,La Estrella,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-26,A,Madera,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-26,A,Niquía,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-26,A,Parque Berrío,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-26,A,Poblado,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-26,A,Prado,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-26,A,Sabaneta,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-26,A,San Antonio,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-26,A,Tricentenario,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-26,A,Universidad,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-26,B,Cisneros,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-26,B,Estadio,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo
+2026-04-26,B,Floresta,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-26,B,San Antonio,Domingo,Domingo_Festivo,Centro_Empleo,0,5,Domingo y festivo
+2026-04-26,B,San Javier,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-26,B,Santa Lucía,Domingo,Domingo_Festivo,Residencial,0,5,Domingo y festivo
+2026-04-26,B,Suramericana,Domingo,Domingo_Festivo,Mixta,0,5,Domingo y festivo

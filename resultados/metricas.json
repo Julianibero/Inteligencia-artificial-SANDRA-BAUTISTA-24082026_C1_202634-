@@ -1,0 +1,117 @@
+{
+  "perfiles": 1568,
+  "horas_por_perfil": 19,
+  "evaluacion_k": [
+    {
+      "k": 2,
+      "inercia": 18013.7,
+      "silueta": 0.3618
+    },
+    {
+      "k": 3,
+      "inercia": 12300.9,
+      "silueta": 0.3721
+    },
+    {
+      "k": 4,
+      "inercia": 10662.8,
+      "silueta": 0.3069
+    },
+    {
+      "k": 5,
+      "inercia": 9181.7,
+      "silueta": 0.3079
+    },
+    {
+      "k": 6,
+      "inercia": 8915.5,
+      "silueta": 0.2712
+    },
+    {
+      "k": 7,
+      "inercia": 8727.7,
+      "silueta": 0.1826
+    },
+    {
+      "k": 8,
+      "inercia": 8555.6,
+      "silueta": 0.1433
+    },
+    {
+      "k": 9,
+      "inercia": 8412.6,
+      "silueta": 0.1301
+    },
+    {
+      "k": 10,
+      "inercia": 8288.6,
+      "silueta": 0.1309
+    }
+  ],
+  "k_elegido": 5,
+  "k_mayor_silueta": 3,
+  "silueta_final": 0.3079,
+  "ari_kmeans_vs_ward": 0.9986,
+  "ari_vs_tipo_dia_y_zona": 0.9554,
+  "grupos": [
+    {
+      "grupo": 1,
+      "nombre": "Laboral residencial",
+      "perfiles": 444,
+      "porcentaje": 28.3,
+      "hora_pico": 6,
+      "fraccion_en_pico": 0.119,
+      "pasajeros_dia_promedio": 22164,
+      "estaciones_distintas": 12,
+      "con_evento": 0
+    },
+    {
+      "grupo": 2,
+      "nombre": "Laboral centro",
+      "perfiles": 401,
+      "porcentaje": 25.6,
+      "hora_pico": 17,
+      "fraccion_en_pico": 0.114,
+      "pasajeros_dia_promedio": 31887,
+      "estaciones_distintas": 11,
+      "con_evento": 30
+    },
+    {
+      "grupo": 3,
+      "nombre": "Laboral mixta",
+      "perfiles": 205,
+      "porcentaje": 13.1,
+      "hora_pico": 17,
+      "fraccion_en_pico": 0.087,
+      "pasajeros_dia_promedio": 19287,
+      "estaciones_distintas": 6,
+      "con_evento": 0
+    },
+    {
+      "grupo": 4,
+      "nombre": "Sábado",
+      "perfiles": 214,
+      "porcentaje": 13.6,
+      "hora_pico": 12,
+      "fraccion_en_pico": 0.07,
+      "pasajeros_dia_promedio": 23485,
+      "estaciones_distintas": 27,
+      "con_evento": 0
+    },
+    {
+      "grupo": 5,
+      "nombre": "Domingo y festivo",
+      "perfiles": 304,
+      "porcentaje": 19.4,
+      "hora_pico": 17,
+      "fraccion_en_pico": 0.08,
+      "pasajeros_dia_promedio": 14255,
+      "estaciones_distintas": 27,
+      "con_evento": 0
+    }
+  ],
+  "varianza_pca": [
+    0.4656,
+    0.226
+  ]
+}

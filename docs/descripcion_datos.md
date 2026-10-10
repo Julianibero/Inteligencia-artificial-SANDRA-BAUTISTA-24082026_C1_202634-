@@ -1,23 +1,23 @@
-# Descripción de los datos para el modelo de predicción de congestión del Metro de Medellín
+# Descripción de los datos para el agrupamiento de patrones de demanda del Metro de Medellín
 
 ## Introducción
 
-Este documento describe los datos que alimentan el modelo de aprendizaje supervisado
-de la Actividad 5. El modelo es un árbol de decisión que predice, para cada estación
-de las líneas A y B del Metro de Medellín y para cada hora, el nivel de congestión:
-`Bajo`, `Medio` o `Alto`. Se trata de un problema de clasificación supervisada, porque
-el algoritmo aprende a partir de ejemplos en los que la respuesta ya se conoce
-(Palma Méndez y Marín Morales, 2008).
+Este documento describe los datos del modelo de aprendizaje no supervisado de la
+Actividad 4. A diferencia de la actividad anterior, aquí no hay una respuesta que
+predecir: el objetivo es descubrir, sin etiquetas, qué patrones de demanda horaria
+existen en las estaciones de las líneas A y B del Metro de Medellín. Para eso se usan
+técnicas de agrupamiento, que reúnen en un mismo grupo los casos parecidos entre sí y
+separan los distintos (Palma Méndez y Marín Morales, 2008).
 
-Para que el árbol aprenda se necesitan registros históricos con dos partes: las
-condiciones de cada hora (estación, día, hora, clima, eventos) y lo que ocurrió en
-ella (cuántas personas ingresaron). A continuación se presentan las fuentes que se
-identificaron, el dataset que se construyó y el diccionario de cada archivo.
+El caso que se agrupa es el perfil de una estación en un día: qué parte de los
+pasajeros de ese día ingresó en cada hora. Dos perfiles se parecen si la demanda se
+reparte de forma parecida a lo largo del día, sin importar el tamaño de la estación.
 
 ## Fuentes de datos identificadas
 
-Se buscaron fuentes públicas que sirvieran para entrenar el modelo. La consulta se
-hizo el 7 de octubre de 2026 y sus resultados se resumen en la Tabla 1.
+Para esta actividad se revisaron las mismas fuentes públicas de la actividad anterior,
+porque el agrupamiento también requiere la afluencia por estación y por hora. La Tabla 1
+las resume.
 
 **Tabla 1**
 
@@ -25,165 +25,105 @@ hizo el 7 de octubre de 2026 y sus resultados se resumen en la Tabla 1.
 
 | Fuente | Contenido | Uso en el proyecto | Limitación |
 |---|---|---|---|
-| Pasajeros movilizados: afluencia (Metro de Medellín, s.f.-a; TUMI, 2023) | Pasajeros por línea, día y hora | Variable objetivo | Está agregada por línea, no por estación; el enlace de datos.gov.co respondió "no encontrado" el día de la consulta |
-| Pasajeros movilizados mensual (Metro de Medellín, s.f.-b) | Total de pasajeros por mes | Tendencia y estacionalidad | Demasiado agregada para un modelo por hora |
-| Estaciones y líneas del sistema (Metro de Medellín, s.f.-c; Alcaldía de Medellín, 2021) | Ubicación georreferenciada de estaciones, línea y modo | Catálogo de estaciones y transferencias | No contiene demanda |
-| GTFS del Metro de Medellín (ColombiaInfo, s.f.) | Rutas, paradas y horarios en formato GTFS | Orden de estaciones y frecuencias | Sus autores advierten errores en los tiempos de `frequencies.txt` y `stop_times.txt` |
-| Informe del Metro a ALAMYS (Metro de Medellín, 2017) | Afluencia de 2016 y horas de mayor carga | Calibrar el orden de magnitud de la muestra (cerca de 713 000 usos diarios en las líneas A y B) | Dato puntual de 2016 |
+| Pasajeros movilizados: afluencia (Metro de Medellín, s.f.-a; TUMI, 2023) | Pasajeros por línea, día y hora | Base de los perfiles de demanda | Está agregada por línea, no por estación; el enlace de datos.gov.co respondió "no encontrado" el día de la consulta |
+| Pasajeros movilizados mensual (Metro de Medellín, s.f.-b) | Total de pasajeros por mes | Tendencia y estacionalidad | Demasiado agregada para perfiles horarios |
+| Estaciones y líneas del sistema (Metro de Medellín, s.f.-c; Alcaldía de Medellín, 2021) | Ubicación georreferenciada de estaciones, línea y modo | Catálogo de estaciones | No contiene demanda |
+| GTFS del Metro de Medellín (ColombiaInfo, s.f.) | Rutas, paradas y horarios en formato GTFS | Orden de estaciones y horario de operación | Sus autores advierten errores en los tiempos |
+| Informe del Metro a ALAMYS (Metro de Medellín, 2017) | Afluencia de 2016 y horas de mayor carga | Calibrar el orden de magnitud de la demanda (cerca de 713 000 usos diarios en las líneas A y B) | Dato puntual de 2016 |
 | Calendario de festivos (Ley 51 de 1983) | Días festivos de Colombia | Variable `tipo_dia` | Ninguna relevante |
-| Red de pluviómetros del SIATA (Sistema de Alerta Temprana de Medellín y el Valle de Aburrá [SIATA], s.f.) | Precipitación por hora | Variable `clima` | Fuente candidata; no se descargó en esta entrega |
+| Red de pluviómetros del SIATA (Sistema de Alerta Temprana de Medellín y el Valle de Aburrá [SIATA], s.f.) | Precipitación por hora | Contexto climático | Fuente candidata; no se descargó |
 
 *Nota.* Elaboración propia con base en las fuentes citadas.
 
-### Conclusión de la búsqueda
+Ninguna fuente pública contiene la afluencia por estación y por hora. Por eso se
+reutilizó el dataset de muestra construido en la actividad anterior, tal como lo
+permite el enunciado: "en caso de no existir dichas fuentes de datos, desarrolle un
+dataset con una muestra de dichos datos".
 
-Ninguna fuente pública contiene la afluencia por estación y por hora, que es el nivel
-de detalle que necesita el modelo. La fuente más cercana publica los pasajeros por
-línea (Metro de Medellín, s.f.-a). Por esa razón se aplicó la segunda opción del
-enunciado de la actividad: construir un dataset con una muestra de los datos.
+## Datos de partida: afluencia horaria por estación
 
-## Construcción del dataset de muestra
-
-El script `data/generar_dataset.py` genera una muestra simulada con la estructura que
-tendría el dato real si el Metro lo publicara por estación. Usa una semilla fija, de
-modo que cualquier persona que lo ejecute obtiene el mismo archivo. La Tabla 2 separa
-lo que proviene de la realidad de lo que es simulado.
+El archivo `data/afluencia_metro_medellin.csv` tiene 29 176 registros, uno por estación,
+hora y día, entre el 2 de marzo y el 26 de abril de 2026. Lo genera el script
+`data/generar_dataset.py` con semilla fija. La Tabla 2 separa lo real de lo simulado.
 
 **Tabla 2**
 
-*Componentes reales y simulados del dataset*
+*Componentes reales y simulados del dataset de afluencia*
 
 | Real | Simulado |
 |---|---|
 | Nombres, orden y línea de las 27 estaciones (21 en la línea A y 7 en la B; San Antonio pertenece a ambas) | Número de pasajeros por hora |
-| Estaciones de transferencia con otras líneas o con cable (San Antonio, Acevedo y San Javier) | Clima de cada hora |
-| Calendario del 2 de marzo al 26 de abril de 2026, con sus tres festivos | Fechas de partidos en el estadio |
-| Horario aproximado de operación: 4:00 a 22:59 de lunes a sábado y 5:00 a 21:59 los domingos y festivos | Tipo de zona, peso de demanda y capacidad de referencia de cada estación (clasificación propia del equipo) |
-| Orden de magnitud de la demanda: cerca de 713 000 usos en un día laboral (Metro de Medellín, 2017) | Nivel de congestión resultante |
+| Calendario del 2 de marzo al 26 de abril de 2026, con sus tres festivos | Clima de cada hora y fechas de partidos en el estadio |
+| Horario aproximado de operación: 4:00 a 22:59 de lunes a sábado y 5:00 a 21:59 los domingos y festivos | Tipo de zona y peso de demanda de cada estación (clasificación propia del equipo) |
+| Orden de magnitud de la demanda: cerca de 713 000 usos en un día laboral (Metro de Medellín, 2017) | Perfil horario de cada tipo de zona |
 
-### Simulación de la demanda
+La demanda se simuló con perfiles horarios distintos según el tipo de zona: las zonas
+residenciales concentran sus ingresos en la mañana y las zonas de empleo en la tarde,
+mientras que los sábados, domingos y festivos no tienen picos marcados. A eso se suman
+el efecto de la lluvia, el de los partidos en el estadio y un ruido aleatorio. El
+detalle completo está en la documentación de la actividad anterior.
 
-Para cada estación y hora se calcula un índice de ocupación como el producto de seis
-factores:
+## Datos para el agrupamiento: perfiles estación-día
 
-1. El peso de la estación: San Antonio, por ejemplo, tiene más demanda relativa que Madera.
-2. El perfil horario según el tipo de zona: las zonas residenciales se cargan en la mañana, cuando las personas salen a trabajar, y las zonas de empleo en la tarde, cuando regresan. Los sábados, domingos y festivos no tienen picos marcados.
-3. Un ajuste por día de la semana: 6 % más los viernes y 3 % más los lunes.
-4. La lluvia, que aumenta la demanda en 12 %, bajo el supuesto de que con lluvia más personas prefieren el metro.
-5. Los eventos masivos, que multiplican la demanda por 1,9 en las estaciones Estadio y Suramericana entre las 17:00 y las 21:59 de los días de partido.
-6. Un ruido aleatorio log-normal con σ = 0,15, porque dos lunes a la misma hora nunca son idénticos.
+El script `src/agrupamiento.py` transforma la afluencia en el archivo
+`data/perfiles_estacion_dia.csv`. Para cada estación y cada día suma los pasajeros de
+cada hora y los divide entre el total del día. El resultado son 1568 perfiles (28
+combinaciones de estación y línea por 56 días), cada uno con 19 fracciones que suman 1.
 
-Después se calcula el número de pasajeros como el índice multiplicado por la capacidad
-de referencia de la estación.
-
-### Asignación de la etiqueta
-
-La etiqueta se obtiene del índice de ocupación con los umbrales de la Tabla 3.
+Se usan fracciones, y no pasajeros, para que el algoritmo compare la forma de la
+demanda y no su tamaño. Sin esta normalización, San Antonio quedaría sola en un grupo
+por ser la estación más grande, aunque su patrón horario sea igual al de otras
+estaciones del centro. La Tabla 3 describe las columnas.
 
 **Tabla 3**
 
-*Umbrales del índice de ocupación para asignar el nivel de congestión*
+*Diccionario de datos del archivo de perfiles*
 
-| Índice de ocupación | Nivel de congestión |
-|---|---|
-| Menor que 0,45 | Bajo |
-| Desde 0,45 y menor que 0,80 | Medio |
-| 0,80 o más | Alto |
+| Columna | Tipo | Descripción | Uso en el agrupamiento |
+|---|---|---|---|
+| `fecha` | Fecha | Día del perfil (2026-03-02 a 2026-04-26) | Identificación |
+| `linea`, `estacion` | Categórica | Línea y estación | Identificación |
+| `dia_semana` | Categórica | Lunes a domingo | Solo para interpretar los grupos |
+| `tipo_dia` | Categórica | Laboral, Sábado o Domingo_Festivo | Solo para interpretar los grupos |
+| `tipo_zona` | Categórica | Residencial, Centro_Empleo o Mixta | Solo para interpretar los grupos |
+| `hubo_evento` | Binaria | 1 si hubo partido en el estadio ese día cerca de la estación | Solo para interpretar los grupos |
+| `pasajeros_dia` | Entera | Total de ingresos del día (5917 a 68 793) | Solo para describir los grupos |
+| `h04` a `h22` | Decimal | Fracción de los ingresos del día que entró en cada hora, de 4:00 a 22:00 | Variables del agrupamiento |
 
-## Diccionario de datos
-
-### Archivo afluencia_metro_medellin.csv
-
-El archivo tiene 29 176 filas y 13 columnas, con codificación UTF-8 y coma como
-separador. Cada fila corresponde a una estación en una hora de un día. La Tabla 4
-describe cada columna.
-
-**Tabla 4**
-
-*Diccionario de datos del archivo de afluencia*
-
-| Columna | Tipo | Valores | Descripción | Uso en el modelo |
-|---|---|---|---|---|
-| `fecha` | Fecha | 2026-03-02 a 2026-04-26 | Día del registro | No se usa; se representa con `dia_semana` y `tipo_dia` |
-| `dia_semana` | Categórica | Lunes a domingo | Día de la semana | Predictora |
-| `tipo_dia` | Categórica | Laboral, Sábado, Domingo_Festivo | Los festivos operan como domingo | Predictora |
-| `hora` | Entera | 4 a 22 | Hora de inicio del intervalo (18 equivale a 18:00–18:59) | Predictora |
-| `linea` | Categórica | A, B | Línea del metro | Predictora |
-| `estacion` | Categórica | 27 estaciones | Nombre de la estación | Predictora |
-| `tipo_zona` | Categórica | Residencial, Centro_Empleo, Mixta | Uso predominante del entorno | Predictora |
-| `es_transferencia` | Binaria | 0, 1 | 1 si conecta con otra línea férrea o de cable | Predictora |
-| `clima` | Categórica | Seco, Lluvia | Condición en esa hora | Predictora |
-| `evento_especial` | Binaria | 0, 1 | 1 si hay un evento masivo cerca en esa hora | Predictora |
-| `pasajeros_hora` | Entera | 83 a 10 822 | Ingresos a la estación en la hora | Excluida, porque de ella se deriva la etiqueta |
-| `indice_ocupacion` | Decimal | 0,043 a 3,491 | Pasajeros divididos entre la capacidad de referencia | Excluida, porque de ella se deriva la etiqueta |
-| `nivel_congestion` | Categórica | Bajo, Medio, Alto | Etiqueta que se quiere predecir | Variable objetivo |
-
-Las columnas `pasajeros_hora` e `indice_ocupacion` se conservan en el archivo porque son
-la medición, pero se excluyen del entrenamiento. Si el árbol las recibiera, le bastaría
-aprender los dos umbrales de la Tabla 3 para acertar siempre, sin haber aprendido nada
-útil. Además, en la práctica no se conocen antes de que ocurra la hora que se quiere
-predecir. Este problema se conoce como fuga de información.
-
-### Archivo estaciones.csv
-
-El catálogo tiene 28 filas porque San Antonio aparece una vez por cada línea. Sus
-columnas se describen en la Tabla 5.
-
-**Tabla 5**
-
-*Diccionario de datos del catálogo de estaciones*
-
-| Columna | Descripción |
-|---|---|
-| `estacion`, `linea` | Identifican la estación |
-| `orden_en_linea` | Posición dentro de la línea (1 corresponde a Niquía en la línea A y a San Antonio en la B) |
-| `tipo_zona` | Residencial, Centro_Empleo o Mixta |
-| `es_transferencia` | 1 para San Antonio, Acevedo y San Javier |
-| `peso_demanda` | Demanda relativa de la estación frente a su capacidad (simulado) |
-| `capacidad_referencia_hora` | Pasajeros por hora que la estación atiende sin aglomeración (simulado) |
+El algoritmo solo recibe las 19 columnas `h04` a `h22`. El tipo de día, el tipo de zona y
+el evento se guardan para comprobar después si los grupos que encontró tienen sentido;
+si se los entregáramos, el agrupamiento perdería su carácter no supervisado.
 
 ## Resumen estadístico
 
-La Tabla 6 muestra cómo se distribuye la etiqueta. Las clases están desbalanceadas,
-con pocos casos `Alto`, como ocurre en la realidad: la congestión alta se concentra en
-pocas horas del día. Por eso la división entre entrenamiento y prueba se hace de forma
-estratificada y, además de la exactitud, se reporta el F1 por clase.
+La Tabla 4 muestra cuántos perfiles hay de cada tipo de día y de zona. Esta distribución
+no se le entrega al algoritmo; sirve para interpretar sus resultados.
 
-**Tabla 6**
+**Tabla 4**
 
-*Distribución del nivel de congestión*
+*Distribución de los perfiles por tipo de día y tipo de zona*
 
-| Nivel | Registros | Porcentaje |
-|---|---|---|
-| Bajo | 13 702 | 47,0 % |
-| Medio | 11 008 | 37,7 % |
-| Alto | 4 466 | 15,3 % |
-| Total | 29 176 | 100,0 % |
+| Tipo de día | Residencial | Centro y empleo | Mixta | Total |
+|---|---|---|---|---|
+| Laboral | 444 | 370 | 222 | 1036 |
+| Sábado | 96 | 80 | 48 | 224 |
+| Domingo o festivo | 132 | 110 | 66 | 308 |
+| Total | 672 | 560 | 336 | 1568 |
 
-La Tabla 7 resume las demás variables.
+De los 1568 perfiles, 30 corresponden a días con partido en las estaciones Estadio o
+Suramericana. Los domingos y festivos no tienen ingresos a las 4:00 ni a las 22:00,
+porque el sistema opera de 5:00 a 21:59 esos días.
 
-**Tabla 7**
-
-*Distribución de las variables de contexto*
-
-| Variable | Distribución |
-|---|---|
-| `tipo_dia` | Laboral: 19 684 registros (37 días); Domingo_Festivo: 5236 (11 días); Sábado: 4256 (8 días) |
-| `clima` | Seco: 22 344 (76,6 %); Lluvia: 6832 (23,4 %) |
-| `evento_especial` | Sin evento: 29 026; con evento: 150 (0,5 %) |
-| `pasajeros_hora` | Media: 1232; mediana: 1025; máximo: 10 822 |
-
-En cuanto a calidad, el archivo no tiene valores nulos ni registros duplicados, y todas
-las categorías están dentro de los valores esperados. Esto lo verifican las pruebas D1
-a D9 descritas en el documento de pruebas.
+En cuanto a calidad, cada perfil suma 1, no hay valores nulos ni perfiles duplicados, y
+el total de pasajeros coincide con el del archivo de afluencia. Esto lo verifican las
+pruebas D1 a D6 descritas en el documento de pruebas.
 
 ## Limitaciones
 
-- Los datos son simulados. Los resultados demuestran que el flujo y el método funcionan, pero no describen la operación real del Metro.
-- El modelo aprende, en parte, las mismas reglas con las que se generaron los datos. Con datos reales la exactitud sería distinta y habría que evaluarla de nuevo.
-- Solo se cubren las líneas A y B del metro; no se incluyen cables, tranvía ni buses.
-- Ocho semanas no alcanzan para capturar la estacionalidad anual, como las vacaciones o diciembre.
-- El paso siguiente sería solicitar al Metro la afluencia por estación, obtenida de las validaciones de la tarjeta Cívica, y reemplazar el archivo simulado. El código no tendría que cambiar.
+- Los datos son simulados. Los grupos encontrados demuestran que el método funciona, pero no describen la operación real del Metro.
+- Como los perfiles se simularon a partir de tipos de zona y de día, es esperable que el algoritmo los recupere. Con datos reales los grupos serían menos nítidos y podrían aparecer patrones nuevos.
+- Ocho semanas no permiten observar la estacionalidad anual.
+- Solo se cubren las líneas A y B del metro.
 
 ## Referencias
 
